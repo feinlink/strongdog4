@@ -1,0 +1,16 @@
+{
+"companyName": "Ricreator",
+"productName": "Bladers.io",
+"productVersion": "0.1",
+"dataUrl": "Crazygames.data.unityweb",
+"wasmCodeUrl": "Crazygames.wasm.code.unityweb",
+"wasmFrameworkUrl": "Crazygames.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#031430",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.1f1"
+}

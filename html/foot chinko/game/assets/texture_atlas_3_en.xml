@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:e2733c0ebcfd7e646841d0755869b989:ec796b59a86ed26cdf6cc0e900050f38:b2cdeb9af034c344bc77c33996922cf1$ -->
+<TextureAtlas imagePath="texture_atlas_3_en.png">
+    <SubTexture name="chinkosports" x="856" y="680" width="110" height="82"/>
+    <SubTexture name="intro_bocadillo" x="2" y="2" width="615" height="368"/>
+    <SubTexture name="intro_speaker_0001" x="618" y="2" width="318" height="338"/>
+    <SubTexture name="intro_speaker_0002" x="618" y="341" width="318" height="338"/>
+    <SubTexture name="intro_speaker_0003" x="2" y="680" width="318" height="338"/>
+    <SubTexture name="intro_speaker_0004" x="321" y="680" width="318" height="338"/>
+    <SubTexture name="intro_topo_1" x="937" y="2" width="73" height="68"/>
+    <SubTexture name="intro_topo_2" x="937" y="71" width="73" height="68"/>
+    <SubTexture name="reporter_name" x="640" y="680" width="215" height="36"/>
+</TextureAtlas>

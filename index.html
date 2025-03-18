@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Site Redirector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div id="redirect-message"></div>
+    <script>
+      (function () {
+        // Define site groups with main site and aliases
+        const siteGroups = [
+          {
+            mainSite: "https://jman1593.github.io",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://strongdog-1.vercel.app",
+            aliasHostnames: ["strongdog2.vercel.app", "strongdog3.vercel.app"],
+          },
+          {
+            mainSite: "http://127.0.0.1:8080/strongdog",
+            aliasHostnames: ["127.0.0.1/strongdog"],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://strongdog.com",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://mathcord.com",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://strongdogxp.github.io",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://mathcordxp.github.io",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://stroongdog.github.io",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://weakcatxp.github.io",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://strongdogunblocked.github.io",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://iloveshorty.github.io",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://strongdogexp.github.io",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://gametreexp.github.io",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://hateroll.com",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://65s.org",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://gametree.net",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://fundle.org",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://mastersite.org",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+          {
+            mainSite: "https://65a.org.org",
+            aliasHostnames: [],
+            aliasPaths: ["/strongdog2", "/strongdog3", "/strongdog4"],
+          },
+        ];
+
+        // Get the current URL components
+        const currentUrl = new URL(window.location.href);
+        const currentHostname = currentUrl.hostname.toLowerCase();
+        const currentPathname = currentUrl.pathname;
+
+        let redirected = false;
+        let isApprovedDomain = false;
+
+        for (const group of siteGroups) {
+          const mainSiteUrl = new URL(group.mainSite);
+          const mainHostname = mainSiteUrl.hostname.toLowerCase();
+
+          // Check if current hostname is a main site
+          if (currentHostname === mainHostname) {
+            isApprovedDomain = true;
+            // Check if current path is an alias path
+            if (group.aliasPaths) {
+              for (const aliasPath of group.aliasPaths) {
+                if (currentPathname.startsWith(aliasPath)) {
+                  // Redirect to the main site (without the alias path)
+                  window.location.href = group.mainSite;
+                  redirected = true;
+                  break;
+                }
+              }
+            }
+            // If not an alias path, no redirection needed
+            break;
+          }
+
+          // Check if current hostname is an alias hostname
+          if (
+            group.aliasHostnames &&
+            group.aliasHostnames.includes(currentHostname)
+          ) {
+            isApprovedDomain = true;
+            // Redirect to the main site
+            window.location.href = group.mainSite;
+            redirected = true;
+            break;
+          }
+        }
+
+        if (!redirected && !isApprovedDomain) {
+          // Display all the main domains
+          const redirectMessage = document.getElementById("redirect-message");
+          redirectMessage.innerHTML =
+            "<h1>Available Main Sites:</h1><ul>" +
+            siteGroups
+              .map(
+                (group) => `
+            <li><a href="${group.mainSite}" target="_blank">${group.mainSite}</a></li>`
+              )
+              .join("") +
+            "</ul>";
+        }
+      })();
+    </script>
+  </body>
+</html>

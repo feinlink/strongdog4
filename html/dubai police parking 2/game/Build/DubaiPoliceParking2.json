@@ -1,0 +1,16 @@
+{
+"companyName": "VitalityGames",
+"productName": "Dubai Police Parking 2",
+"productVersion": "1.1.1",
+"dataUrl": "DubaiPoliceParking2.data.unityweb",
+"wasmCodeUrl": "DubaiPoliceParking2.wasm.code.unityweb",
+"wasmFrameworkUrl": "DubaiPoliceParking2.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#141414",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.12f1"
+}

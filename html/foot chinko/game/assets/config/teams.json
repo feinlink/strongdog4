@@ -1,0 +1,648 @@
+[
+    {
+        "id":1,
+        "name":"ALGERIA",
+        "race":4,
+        "shirt_color": "#F4FFF0",
+        "selectable":true,
+        "tournaments":[
+            "AFRICA CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":2,
+        "name":"ARGENTINA",
+        "race":1,
+        "shirt_color": "#92C4E9",
+        "selectable":true,
+        "tournaments":[
+            "AMERICA CUP",
+            "OLYMPIC GAMES",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":3,
+        "name":"AUSTRALIA",
+        "race":1,
+        "shirt_color": "#FFDD39",
+        "selectable":true,
+        "tournaments":[
+            "ASIAN CUP",
+            "CONFEDERATIONS CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":4,
+        "name":"BELGIUM",
+        "race":1,
+        "shirt_color": "#F03C33",
+        "selectable":true,
+        "tournaments":[
+            "EURO CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":5,
+        "name":"BOLIVIA",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "AMERICA CUP"
+        ]
+    },
+    {
+        "id":6,
+        "name":"BOSNIA",
+        "race":1,
+        "shirt_color": "#1F52B9",
+        "selectable":true,
+        "tournaments":[
+            "EURO CUP"
+        ]
+    },
+    {
+        "id":7,
+        "name":"BRAZIL",
+        "race":3,
+        "shirt_color": "#FFDD39",
+        "selectable":true,
+        "tournaments":[
+            "AMERICA CUP",
+            "OLYMPIC GAMES",
+            "CONFEDERATIONS CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":8,
+        "name":"CAMEROON",
+        "race":2,
+        "shirt_color": "#18A060",
+        "selectable":true,
+        "tournaments":[
+            "AFRICA CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":9,
+        "name":"CANADA",
+        "race":1,
+        "shirt_color": "#EF283B",
+        "selectable":true,
+        "tournaments":[
+            "GOLD CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":10,
+        "name":"CHILE",
+        "race":4,
+        "shirt_color": "#F32F39",
+        "selectable":true,
+        "tournaments":[
+            "AMERICA CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":11,
+        "name":"CHINA",
+        "race":5,
+        "shirt_color": "#F32F39",
+        "selectable":true,
+        "tournaments":[
+            "ASIAN CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":12,
+        "name":"COLOMBIA",
+        "race":2,
+        "shirt_color": "#F8D423",
+        "selectable":true,
+        "tournaments":[
+            "AMERICA CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":13,
+        "name":"COSTA RICA",
+        "race":1,
+        "shirt_color": "#F32F39",
+        "selectable":true,
+        "tournaments":[
+            "GOLD CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":14,
+        "name":"CROATIA",
+        "race":1,
+        "shirt_color": "#F32F39",
+        "selectable":true,
+        "tournaments":[
+            "EURO CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":15,
+        "name":"DENMARK",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "EURO CUP"
+        ]
+    },
+    {
+        "id":16,
+        "name":"ECUADOR",
+        "race":2,
+        "shirt_color": "#F8D423",
+        "selectable":true,
+        "tournaments":[
+            "AMERICA CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":17,
+        "name":"EGYPT",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "AFRICA CUP"
+        ]
+    },
+    {
+        "id":18,
+        "name":"FIJI",
+        "race":3,
+        "shirt_color": "#F4FFF0",
+        "selectable":true,
+        "tournaments":[
+            "OCEANIA CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":19,
+        "name":"FRANCE",
+        "race":1,
+        "shirt_color": "#203F53",
+        "selectable":true,
+        "tournaments":[
+            "EURO CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":20,
+        "name":"GERMANY",
+        "race":1,
+        "shirt_color": "#F4FFF0",
+        "selectable":true,
+        "tournaments":[
+            "OLYMPIC GAMES",
+            "EURO CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":21,
+        "name":"GHANA",
+        "race":2,
+        "shirt_color": "#F4FFF0",
+        "selectable":true,
+        "tournaments":[
+            "AFRICA CUP",
+            "CONFEDERATIONS CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":22,
+        "name":"GREECE",
+        "race":1,
+        "shirt_color": "#2E6EB6",
+        "selectable":false,
+        "tournaments":[
+            "EURO CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":23,
+        "name":"HAITI",
+        "race":2,
+        "shirt_color": "#1E7DDB",
+        "selectable":true,
+        "tournaments":[
+            "GOLD CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":24,
+        "name":"HONDURAS",
+        "race":2,
+        "shirt_color": "#F4FFF0",
+        "selectable":true,
+        "tournaments":[
+            "GOLD CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":25,
+        "name":"IRAN",
+        "race":3,
+        "shirt_color": "#F4FFF0",
+        "selectable":true,
+        "tournaments":[
+            "ASIAN CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":26,
+        "name":"IRELAND",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "EURO CUP"
+        ]
+    },
+    {
+        "id":27,
+        "name":"ISRAEL",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "ASIAN CUP"
+        ]
+    },
+    {
+        "id":28,
+        "name":"ITALY",
+        "race":1,
+        "shirt_color": "#2E6EB6",
+        "selectable":true,
+        "tournaments":[
+            "EURO CUP",
+            "CONFEDERATIONS CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":29,
+        "name":"IVORY COAST",
+        "race":2,
+        "shirt_color": "#FF772C",
+        "selectable":true,
+        "tournaments":[
+            "AFRICA CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":30,
+        "name":"JAMAICA",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "GOLD CUP"
+        ]
+    },
+    {
+        "id":31,
+        "name":"JAPAN",
+        "race":5,
+        "shirt_color": "#145BBD",
+        "selectable":true,
+        "tournaments":[
+            "ASIAN CUP",
+            "OLYMPIC GAMES",
+            "CONFEDERATIONS CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":32,
+        "name":"INDIA",
+        "race":5,
+        "shirt_color": "#2E6EB6",
+        "selectable":true,
+        "tournaments":[
+            "ASIAN CUP",
+            "OLYMPIC GAMES",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":33,
+        "name":"MEXICO",
+        "race":4,
+        "shirt_color": "#28A64A",
+        "selectable":true,
+        "tournaments":[
+            "GOLD CUP",
+            "OLYMPIC GAMES",
+            "CONFEDERATIONS CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":34,
+        "name":"MOROCCO",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "AFRICA CUP"
+        ]
+    },
+    {
+        "id":35,
+        "name":"NETHERLANDS",
+        "race":1,
+        "shirt_color": "#FF4E00",
+        "selectable":true,
+        "tournaments":[
+            "EURO CUP",
+            "CONFEDERATIONS CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":36,
+        "name":"NEW ZEALAND",
+        "race":1,
+        "shirt_color": "#F4FFF0",
+        "selectable":true,
+        "tournaments":[
+            "OCEANIA CUP",
+            "OLYMPIC GAMES",
+            "CONFEDERATIONS CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":37,
+        "name":"NIGERIA",
+        "race":2,
+        "shirt_color": "#28A64A",
+        "selectable":true,
+        "tournaments":[
+            "AFRICA CUP",
+            "CONFEDERATIONS CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":38,
+        "name":"PANAMA",
+        "race":3,
+        "shirt_color": "#E01B30",
+        "selectable":true,
+        "tournaments":[
+            "GOLD CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":39,
+        "name":"PAPUA NEW GUINEA",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "OCEANIA CUP"
+        ]
+    },
+    {
+        "id":40,
+        "name":"PARAGUAY",
+        "race":1,
+        "shirt_color": "#EE273A",
+        "selectable":true,
+        "tournaments":[
+            "AMERICA CUP",
+            "CONFEDERATIONS CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":41,
+        "name":"PERU",
+        "race":3,
+        "shirt_color": "#F4FFF0",
+        "selectable":true,
+        "tournaments":[
+            "AMERICA CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":42,
+        "name":"POLAND",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "EURO CUP"
+        ]
+    },
+    {
+        "id":43,
+        "name":"PORTUGAL",
+        "race":1,
+        "shirt_color": "#B42B3D",
+        "selectable":true,
+        "tournaments":[
+            "EURO CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":44,
+        "name":"RUSSIA",
+        "race":1,
+        "shirt_color": "#8C212C",
+        "selectable":true,
+        "tournaments":[
+            "EURO CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":45,
+        "name":"SAMOA",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "OCEANIA CUP"
+        ]
+    },
+    {
+        "id":46,
+        "name":"SAUDI ARABIA",
+        "race":4,
+        "shirt_color": "#28A64A",
+        "selectable":true,
+        "tournaments":[
+            "ASIAN CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":47,
+        "name":"SOLOMON ISLANDS",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "OCEANIA CUP"
+        ]
+    },
+    {
+        "id":48,
+        "name":"SPAIN",
+        "race":1,
+        "shirt_color": "#D02032",
+        "selectable":true,
+        "tournaments":[
+            "OLYMPIC GAMES",
+            "EURO CUP",
+            "CONFEDERATIONS CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":49,
+        "name":"SWEDEN",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "EURO CUP"
+        ]
+    },
+    {
+        "id":50,
+        "name":"SWITZERLAND",
+        "race":1,
+        "shirt_color": "#F4FFF0",
+        "selectable":true,
+        "tournaments":[
+            "EURO CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":51,
+        "name":"TAHITI",
+        "race":3,
+        "shirt_color": "#DD2336",
+        "selectable":true,
+        "tournaments":[
+            "OCEANIA CUP",
+            "CONFEDERATIONS CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":52,
+        "name":"TUNISIA",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "AFRICA CUP"
+        ]
+    },
+    {
+        "id":53,
+        "name":"U.S.A.",
+        "race":1,
+        "shirt_color": "#F4FFF0",
+        "selectable":true,
+        "tournaments":[
+            "GOLD CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":54,
+        "name":"U.K.",
+        "race":3,
+        "shirt_color": "#F4FFF0",
+        "selectable":true,
+        "tournaments":[
+            "OLYMPIC GAMES",
+            "EURO CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":55,
+        "name":"URUGUAY",
+        "race":1,
+        "shirt_color": "#1A97DE",
+        "selectable":true,
+        "tournaments":[
+            "AMERICA CUP",
+            "OLYMPIC GAMES",
+            "CONFEDERATIONS CUP",
+            "CONFEDERATIONS CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":56,
+        "name":"VANUATU",
+        "race":2,
+        "shirt_color": "#218B3E",
+        "selectable":true,
+        "tournaments":[
+            "OCEANIA CUP",
+            "WORLD CUP"
+        ]
+    },
+    {
+        "id":57,
+        "name":"VENEZUELA",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "AMERICA CUP"
+        ]
+    },
+    {
+        "id":58,
+        "name":"ZAMBIA",
+        "race":4,
+        "shirt_color": "#ffffff",
+        "selectable":false,
+        "tournaments":[
+            "AFRICA CUP"
+        ]
+    }
+]

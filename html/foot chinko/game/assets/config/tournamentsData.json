@@ -1,0 +1,1122 @@
+[
+	{
+		"name": "WORLD CUP",
+		"won": false,
+		"teamSelected": false,
+		"selectedTeamName": "FRANCE",
+		"jokerTeamName": "FRANCE",
+		"trophyImageName": "trofeo0000",
+		"titleLabelFontSize": 85,
+		"titleLabel_py": 15,
+		"matchesData": [
+			{
+				"id": 40,
+				"index": 92,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "GERMANY",
+				"matchType": "FINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 74,
+				"index": 91,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "ARGENTINA",
+				"matchType": "SEMIFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 64,
+				"index": 90,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "BRAZIL",
+				"matchType": "QUARTERFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 71,
+				"index": 89,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "NETHERLANDS",
+				"matchType": "ROUND OF 16",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 8,
+				"index": 88,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "COSTA RICA",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 76,
+				"index": 87,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "COLOMBIA",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 96,
+				"index": 86,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "BELGIUM",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 120,
+				"index": 85,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "CHILE",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 59,
+				"index": 84,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "MEXICO",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			},
+			{
+				"id": 77,
+				"index": 83,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "GREECE",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 60,
+				"index": 82,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "ALGERIA",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			},
+			{
+				"id": 23,
+				"index": 81,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "NIGERIA",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 36,
+				"index": 80,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "URUGUAY",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			}
+		]
+	},
+	{
+		"name": "CONFEDERATIONS CUP",
+		"won": false,
+		"teamSelected": false,
+		"selectedTeamName": "ITALY",
+		"jokerTeamName": "ITALY",
+		"trophyImageName": "trofeo0001",
+		"titleLabelFontSize": 44,
+		"titleLabel_py": 32,
+		"matchesData": [
+			{
+				"id": 90,
+				"index": 79,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "BRAZIL",
+				"matchType": "FINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 66,
+				"index": 78,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "SPAIN",
+				"matchType": "SEMIFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 75,
+				"index": 77,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "URUGUAY",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 63,
+				"index": 76,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "MEXICO",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 50,
+				"index": 75,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "JAPAN",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 54,
+				"index": 74,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "NIGERIA",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 52,
+				"index": 73,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "TAHITI",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			},
+			{
+				"id": 45,
+				"index": 72,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "PARAGUAY",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 41,
+				"index": 71,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "AUSTRALIA",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			},
+			{
+				"id": 62,
+				"index": 70,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "U.S.A.",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			}
+		]
+	},
+	{
+		"name": "EURO CUP",
+		"won": false,
+		"teamSelected": false,
+		"selectedTeamName": "SPAIN",
+		"jokerTeamName": "SPAIN",
+		"trophyImageName": "trofeo0002",
+		"titleLabelFontSize": 85,
+		"titleLabel_py": 15,
+		"matchesData": [
+			{
+				"id": 78,
+				"index": 69,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "GERMANY",
+				"matchType": "FINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 20,
+				"index": 68,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "NETHERLANDS",
+				"matchType": "SEMIFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 81,
+				"index": 67,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "FRANCE",
+				"matchType": "QUARTERFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 32,
+				"index": 66,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "ITALY",
+				"matchType": "ROUND OF 16",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 61,
+				"index": 65,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "PORTUGAL",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 30,
+				"index": 64,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "CROATIA",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 29,
+				"index": 63,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "GREECE",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 34,
+				"index": 62,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "BELGIUM",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 33,
+				"index": 61,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "POLAND",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			},
+			{
+				"id": 27,
+				"index": 60,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "IRELAND",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 49,
+				"index": 59,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "DENMARK",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			},
+			{
+				"id": 6,
+				"index": 58,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "BOSNIA",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 14,
+				"index": 57,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "SWITZERLAND",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			},
+			{
+				"id": 85,
+				"index": 56,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "RUSSIA",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 9,
+				"index": 55,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "SWEDEN",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			}
+		]
+	},
+	{
+		"name": "OLYMPIC GAMES",
+		"won": false,
+		"teamSelected": false,
+		"selectedTeamName": "INDIA",
+		"jokerTeamName": "INDIA",
+		"trophyImageName": "trofeo0003",
+		"titleLabelFontSize": 62,
+		"titleLabel_py": 21,
+		"matchesData": [
+			{
+				"id": 46,
+				"index": 54,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "MEXICO",
+				"matchType": "FINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 19,
+				"index": 53,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "ITALY",
+				"matchType": "SEMIFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 43,
+				"index": 52,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "ARGENTINA",
+				"matchType": "QUARTERFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 28,
+				"index": 51,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "BRAZIL",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 39,
+				"index": 50,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "U.K.",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 35,
+				"index": 49,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "GERMANY",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 105,
+				"index": 48,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "JAPAN",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 13,
+				"index": 47,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "SPAIN",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			},
+			{
+				"id": 55,
+				"index": 46,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "NEW ZEALAND",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 56,
+				"index": 45,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "URUGUAY",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			},
+			{
+				"id": 86,
+				"index": 44,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "MOROCCO",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			}
+		]
+	},
+	{
+		"name": "AMERICA CUP",
+		"won": false,
+		"teamSelected": false,
+		"selectedTeamName": "BRAZIL",
+		"jokerTeamName": "BRAZIL",
+		"trophyImageName": "trofeo0004",
+		"titleLabelFontSize": 72,
+		"titleLabel_py": 18,
+		"matchesData": [
+			{
+				"id": 48,
+				"index": 43,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "ARGENTINA",
+				"matchType": "FINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 65,
+				"index": 42,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "URUGUAY",
+				"matchType": "SEMIFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 15,
+				"index": 41,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "CHILE",
+				"matchType": "QUARTERFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 79,
+				"index": 40,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "COLOMBIA",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 80,
+				"index": 39,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "ECUADOR",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 38,
+				"index": 38,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "PARAGUAY",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 73,
+				"index": 37,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "PERU",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			},
+			{
+				"id": 26,
+				"index": 36,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "BOLIVIA",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 70,
+				"index": 35,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "VENEZUELA",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			}
+		]
+	},
+	{
+		"name": "GOLD CUP",
+		"won": false,
+		"teamSelected": false,
+		"selectedTeamName": "MEXICO",
+		"jokerTeamName": "MEXICO",
+		"trophyImageName": "trofeo0005",
+		"titleLabelFontSize": 80,
+		"titleLabel_py": 15,
+		"matchesData": [
+			{
+				"id": 68,
+				"index": 34,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "COSTA RICA",
+				"matchType": "FINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 57,
+				"index": 33,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "U.S.A.",
+				"matchType": "SEMIFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 53,
+				"index": 32,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "HONDURAS",
+				"matchType": "QUARTERFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 31,
+				"index": 31,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "PANAMA",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 67,
+				"index": 30,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "HONDURAS",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 42,
+				"index": 29,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "JAMAICA",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 69,
+				"index": 28,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "HAITI",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			},
+			{
+				"id": 22,
+				"index": 27,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "CANADA",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			}
+		]
+	},
+	{
+		"name": "ASIAN CUP",
+		"won": false,
+		"teamSelected": false,
+		"selectedTeamName": "IRAN",
+		"jokerTeamName": "IRAN",
+		"trophyImageName": "trofeo0006",
+		"titleLabelFontSize": 80,
+		"titleLabel_py": 15,
+		"matchesData": [
+			{
+				"id": 58,
+				"index": 26,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "JAPAN",
+				"matchType": "FINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 18,
+				"index": 25,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "AUSTRALIA",
+				"matchType": "SEMIFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 11,
+				"index": 24,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "INDIA",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 2,
+				"index": 23,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "CHINA",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 12,
+				"index": 22,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "JAPAN",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 82,
+				"index": 21,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "SAUDI ARABIA",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			},
+			{
+				"id": 44,
+				"index": 20,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "ISRAEL",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			}
+		]
+	},
+	{
+		"name": "AFRICA CUP",
+		"won": false,
+		"teamSelected": false,
+		"selectedTeamName": "NIGERIA",
+		"jokerTeamName": "NIGERIA",
+		"trophyImageName": "trofeo0007",
+		"titleLabelFontSize": 80,
+		"titleLabel_py": 15,
+		"matchesData": [
+			{
+				"id": 7,
+				"index": 19,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "CAMEROON",
+				"matchType": "FINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 72,
+				"index": 18,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "ALGERIA",
+				"matchType": "SEMIFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 10,
+				"index": 17,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "IVORY COAST",
+				"matchType": "QUARTERFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 47,
+				"index": 16,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "GHANA",
+				"matchType": "ROUND OF 16",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 5,
+				"index": 15,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "TUNISIA",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 104,
+				"index": 14,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "CAMEROON",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 89,
+				"index": 13,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "ZAMBIA",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 16,
+				"index": 12,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "EGYPT",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 4,
+				"index": 11,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "MOROCCO",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			},
+			{
+				"id": 17,
+				"index": 10,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "CAMEROON",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			}
+		]
+	},
+	{
+		"name": "OCEANIA CUP",
+		"won": false,
+		"teamSelected": false,
+		"selectedTeamName": "TAHITI",
+		"jokerTeamName": "TAHITI",
+		"trophyImageName": "trofeo0008",
+		"titleLabelFontSize": 74,
+		"titleLabel_py": 18,
+		"matchesData": [
+			{
+				"id": 111,
+				"index": 9,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "NEW ZEALAND",
+				"matchType": "FINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 25,
+				"index": 8,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "SOLOMON ISLANDS",
+				"matchType": "SEMIFINAL",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 37,
+				"index": 7,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "PAPUA NEW GUINEA",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 93,
+				"index": 6,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "SAMOA",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 87,
+				"index": 5,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "FIJI",
+				"matchType": "GROUP STAGE",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 1,
+				"index": 4,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "SOLOMON ISLANDS",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 92,
+				"index": 3,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "VANUATU",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": true
+			},
+			{
+				"id": 101,
+				"index": 2,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "NEW ZEALAND",
+				"matchType": "QUALIFICATION",
+				"locked": true,
+				"won": false,
+				"whiteBackgroundVisible": false
+			},
+			{
+				"id": 100,
+				"index": 1,
+				"goalsPlayer": 0,
+				"goalsAdversary": 0,
+				"adversaryName": "FIJI",
+				"matchType": "QUALIFICATION",
+				"locked": false,
+				"won": false,
+				"whiteBackgroundVisible": true
+			}
+		]
+	}
+]

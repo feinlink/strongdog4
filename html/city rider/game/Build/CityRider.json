@@ -1,0 +1,12 @@
+{
+"companyName": "mhdhammod",
+"productName": "City Rider",
+"dataUrl": "CityRider.data.unityweb",
+"wasmCodeUrl": "CityRider.wasm.code.unityweb",
+"wasmFrameworkUrl": "CityRider.wasm.framework.unityweb",
+"TOTAL_MEMORY": 419430400,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

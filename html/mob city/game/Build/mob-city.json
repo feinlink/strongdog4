@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 536870912,
+"dataUrl": "mob-city.data.unityweb",
+"asmCodeUrl": "mob-city.asm.code.unityweb",
+"asmMemoryUrl": "mob-city.asm.memory.unityweb",
+"asmFrameworkUrl": "mob-city.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}

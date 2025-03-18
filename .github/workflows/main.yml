@@ -1,0 +1,78 @@
+name: Upload Repository to strongdog4 Folder
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    if: github.event.repository.fork == false && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Ensure full history is available for git diff
+
+      - name: Collect Changed Files
+        shell: bash
+        run: |
+          mkdir -p changed
+          if [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
+            echo "No previous commit found; copying entire directory excluding unwanted files."
+            rsync -av \
+              --exclude='.git' \
+              --exclude='.github' \
+              --exclude='.vscode' \
+              --exclude='.gitattributes' \
+              --exclude='.gitignore' \
+              ./ changed/
+          else
+            echo "Detecting files changed between ${{ github.event.before }} and ${{ github.sha }}:"
+            # Save list of added, modified, or renamed files with null terminators
+            git diff --name-only -z --diff-filter=AMR "${{ github.event.before }}" "${{ github.sha }}" > changed_files.txt
+            # Debug: Show the list of changed files
+            echo "Changed files:"
+            cat changed_files.txt | xargs -0 -I {} echo "'{}'"
+            # Copy each file
+            while IFS= read -r -d '' file; do
+              if [ -f "$file" ]; then
+                echo "Copying '$file' to changed/$file"
+                mkdir -p "changed/$(dirname "$file")"
+                cp "$file" "changed/$file"
+              else
+                echo "Skipping '$file' as it no longer exists."
+              fi
+            done < <(cat changed_files.txt)
+          fi
+
+      - name: Reorganize Files for strongdog4
+        shell: bash
+        run: |
+          mkdir -p changed/strongdog4
+          # Enable extended globbing and move everything except strongdog4 folder into it
+          shopt -s extglob
+          mv changed/!(strongdog4) changed/strongdog4/ 2>/dev/null || echo "No files to move (might be empty)"
+
+      - name: Remove Unwanted Files from Changed Directory
+        shell: bash
+        run: |
+          rm -rf changed/strongdog4/.git changed/strongdog4/.github changed/strongdog4/.vscode
+          rm -f changed/strongdog4/.gitattributes changed/strongdog4/.gitignore
+
+      - name: Upload Changed Files to Cloudflare R2 (strongdog4)
+        uses: ryand56/r2-upload-action@latest
+        with:
+          r2-account-id: ${{ secrets.CLOUDFLARE_R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.CLOUDFLARE_R2_BUCKET }}
+          source-dir: './changed/strongdog4'
+          destination-dir: 'strongdog4/'  # Files will be uploaded into the strongdog4 folder in R2
+          output-file-url: true
+          multipart-size: 100
+          max-retries: 5
+          multipart-concurrent: true
+          keep-file-fresh: false

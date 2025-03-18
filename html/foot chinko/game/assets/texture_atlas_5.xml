@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b4f56d02a525010b281c44cd4b5329b2:72670897037a029d1d001a7e99d9653e:eab572e39120b612a8c59625d678afcf$ -->
+<TextureAtlas imagePath="texture_atlas_5.png" width="2048" height="2048">
+    <SubTexture name="balls-cartridge" x="36" y="1050" width="96" height="43"/>
+    <SubTexture name="bandera_0000" x="134" y="1011" width="110" height="80"/>
+    <SubTexture name="bandera_0001" x="706" y="1389" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0002" x="716" y="1958" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0003" x="827" y="1950" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0004" x="817" y="1389" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0005" x="962" y="1244" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0006" x="928" y="1385" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0007" x="1073" y="1244" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0008" x="1039" y="1385" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0009" x="938" y="1940" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0010" x="1150" y="1385" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0011" x="1261" y="1385" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0012" x="1161" y="1919" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0013" x="1258" y="1803" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0014" x="1278" y="1691" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0015" x="1282" y="1579" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0016" x="1288" y="1467" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0017" x="1372" y="1385" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0018" x="1408" y="1207" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0019" x="1519" y="1200" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0020" x="1760" y="1290" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0021" x="1871" y="1328" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0022" x="1272" y="1885" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0023" x="1369" y="1773" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0024" x="1389" y="1661" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0025" x="1393" y="1549" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0026" x="1399" y="1467" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0027" x="1483" y="1385" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0028" x="1594" y="1314" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0029" x="1705" y="1372" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0030" x="1594" y="1396" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0031" x="1383" y="1855" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0032" x="1383" y="1937" width="109" height="80" frameX="0" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0033" x="1480" y="1743" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0034" x="1500" y="1631" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0035" x="1504" y="1549" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0036" x="1816" y="1410" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0037" x="1705" y="1454" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0038" x="1927" y="1410" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0039" x="1816" y="1492" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0040" x="1927" y="1492" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0041" x="1615" y="1536" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0042" x="1494" y="1825" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0043" x="1591" y="1713" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0044" x="1611" y="1631" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0045" x="1494" y="1907" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0046" x="1605" y="1795" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0047" x="1702" y="1713" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0048" x="1722" y="1618" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0049" x="1605" y="1877" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0050" x="1605" y="1959" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0051" x="1833" y="1574" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0052" x="1833" y="1656" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0053" x="1813" y="1738" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0054" x="1924" y="1738" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0055" x="1716" y="1820" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0056" x="1716" y="1902" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0057" x="1827" y="1820" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="bandera_0058" x="1827" y="1902" width="109" height="80" frameX="-1" frameY="0" frameWidth="110" frameHeight="80"/>
+    <SubTexture name="big_coin" x="301" y="858" width="59" height="61"/>
+    <SubTexture name="boton_next_off" x="252" y="1632" width="132" height="136"/>
+    <SubTexture name="boton_next_on" x="1171" y="1069" width="132" height="136"/>
+    <SubTexture name="boton_replay_off" x="830" y="1184" width="130" height="136" frameX="0" frameY="0" frameWidth="132" frameHeight="136"/>
+    <SubTexture name="boton_replay_on" x="652" y="1194" width="130" height="136" frameX="0" frameY="0" frameWidth="132" frameHeight="136"/>
+    <SubTexture name="button-exit-off" x="609" y="1066" width="57" height="63"/>
+    <SubTexture name="button-exit-on" x="516" y="1095" width="57" height="63"/>
+    <SubTexture name="cambio_equipo_off" x="36" y="1095" width="102" height="103"/>
+    <SubTexture name="cambio_equipo_on" x="140" y="1095" width="102" height="103"/>
+    <SubTexture name="coin" x="731" y="218" width="31" height="33"/>
+    <SubTexture name="contador monedas" x="1537" y="723" width="264" height="61"/>
+    <SubTexture name="credits_cartridge" x="1537" y="723" width="264" height="61"/>
+    <SubTexture name="credits_off" x="616" y="1332" width="128" height="55" frameX="0" frameY="0" frameWidth="128" frameHeight="56"/>
+    <SubTexture name="credits_on" x="746" y="1332" width="128" height="55" frameX="0" frameY="0" frameWidth="128" frameHeight="56"/>
+    <SubTexture name="defeat" x="1008" y="614" width="195" height="142" frameX="0" frameY="0" frameWidth="196" frameHeight="142"/>
+    <SubTexture name="down_button_off" x="1973" y="657" width="68" height="89" frameX="0" frameY="-1" frameWidth="68" frameHeight="90"/>
+    <SubTexture name="down_button_on" x="1973" y="748" width="68" height="89" frameX="0" frameY="-1" frameWidth="68" frameHeight="90"/>
+    <SubTexture name="escalon_cuartos" x="1539" y="370" width="398" height="90"/>
+    <SubTexture name="escalon_final" x="362" y="307" width="328" height="90"/>
+    <SubTexture name="escalon_liguilla_2" x="772" y="113" width="449" height="184"/>
+    <SubTexture name="escalon_liguilla_3" x="1542" y="2" width="449" height="274"/>
+    <SubTexture name="escalon_octavos" x="1539" y="278" width="432" height="90"/>
+    <SubTexture name="escalon_semifinal" x="731" y="299" width="363" height="90"/>
+    <SubTexture name="exit_button_off" x="1939" y="1073" width="107" height="141" frameX="0" frameY="-1" frameWidth="107" frameHeight="142"/>
+    <SubTexture name="exit_button_on" x="362" y="926" width="107" height="141" frameX="0" frameY="-1" frameWidth="107" frameHeight="142"/>
+    <SubTexture name="fx_button_off_off" x="1993" y="2" width="53" height="59" frameX="-2" frameY="-2" frameWidth="57" frameHeight="64"/>
+    <SubTexture name="fx_button_off_on" x="1993" y="63" width="53" height="59" frameX="-2" frameY="-2" frameWidth="57" frameHeight="64"/>
+    <SubTexture name="fx_button_on_off" x="471" y="926" width="57" height="64"/>
+    <SubTexture name="fx_button_on_on" x="530" y="926" width="57" height="64"/>
+    <SubTexture name="green-basis" x="1803" y="756" width="134" height="100"/>
+    <SubTexture name="hooligan_1_skin" x="392" y="1095" width="122" height="101" frameX="-1" frameY="-27" frameWidth="153" frameHeight="128"/>
+    <SubTexture name="hooligan_1_solid" x="1096" y="299" width="125" height="128" frameX="0" frameY="0" frameWidth="153" frameHeight="128"/>
+    <SubTexture name="hooligan_1_team_colours" x="609" y="992" width="62" height="72" frameX="-36" frameY="-52" frameWidth="153" frameHeight="128"/>
+    <SubTexture name="hooligan_2_skin" x="1787" y="1051" width="150" height="64" frameX="-1" frameY="-28" frameWidth="153" frameHeight="128"/>
+    <SubTexture name="hooligan_2_solid" x="2" y="635" width="153" height="115" frameX="0" frameY="-13" frameWidth="153" frameHeight="128"/>
+    <SubTexture name="hooligan_2_team_colours" x="36" y="1650" width="102" height="111" frameX="-36" frameY="-16" frameWidth="153" frameHeight="128"/>
+    <SubTexture name="hooligan_3_skin" x="1795" y="858" width="140" height="90" frameX="-1" frameY="-2" frameWidth="153" frameHeight="128"/>
+    <SubTexture name="hooligan_3_solid" x="246" y="1069" width="144" height="128" frameX="0" frameY="0" frameWidth="153" frameHeight="128"/>
+    <SubTexture name="hooligan_3_team_colours" x="463" y="1400" width="130" height="100" frameX="-2" frameY="-24" frameWidth="153" frameHeight="128"/>
+    <SubTexture name="icono_crono" x="246" y="1011" width="56" height="56"/>
+    <SubTexture name="infinity-symbol" x="1008" y="391" width="45" height="26"/>
+    <SubTexture name="jugador_ganador_1" x="1223" y="113" width="314" height="259" frameX="0" frameY="0" frameWidth="314" frameHeight="260"/>
+    <SubTexture name="jugador_ganador_2" x="36" y="218" width="314" height="259" frameX="0" frameY="0" frameWidth="314" frameHeight="260"/>
+    <SubTexture name="jugador_ganador_3" x="1223" y="374" width="314" height="259" frameX="0" frameY="0" frameWidth="314" frameHeight="260"/>
+    <SubTexture name="jugador_ganador_4" x="1539" y="462" width="314" height="259" frameX="0" frameY="0" frameWidth="314" frameHeight="260"/>
+    <SubTexture name="jugador_ganador_5" x="692" y="391" width="314" height="259" frameX="0" frameY="0" frameWidth="314" frameHeight="260"/>
+    <SubTexture name="jugador_pierde_1" x="1537" y="786" width="256" height="208"/>
+    <SubTexture name="jugador_pierde_2" x="1182" y="881" width="256" height="186" frameX="0" frameY="-22" frameWidth="256" frameHeight="208"/>
+    <SubTexture name="jugador_pierde_3" x="924" y="790" width="256" height="202" frameX="0" frameY="-6" frameWidth="256" frameHeight="208"/>
+    <SubTexture name="jugador_pierde_4" x="666" y="652" width="256" height="203" frameX="0" frameY="-5" frameWidth="256" frameHeight="208"/>
+    <SubTexture name="jugador_pierde_5" x="1532" y="996" width="253" height="202" frameX="-3" frameY="-6" frameWidth="256" frameHeight="208"/>
+    <SubTexture name="little_coin" x="1993" y="246" width="52" height="50"/>
+    <SubTexture name="loading_brazo" x="1973" y="1021" width="67" height="50" frameX="0" frameY="-1" frameWidth="67" frameHeight="52"/>
+    <SubTexture name="loading_puerta" x="168" y="1328" width="133" height="190"/>
+    <SubTexture name="loading_speaker" x="1787" y="1117" width="146" height="171" frameX="0" frameY="0" frameWidth="158" frameHeight="180"/>
+    <SubTexture name="loading_speaker_2" x="303" y="1328" width="158" height="180"/>
+    <SubTexture name="magic_potion_ray_0001" x="595" y="1400" width="109" height="90" frameX="-12" frameY="0" frameWidth="130" frameHeight="400"/>
+    <SubTexture name="magic_potion_ray_0002" x="1973" y="553" width="72" height="102" frameX="-28" frameY="-30" frameWidth="130" frameHeight="400"/>
+    <SubTexture name="magic_potion_ray_0003" x="1855" y="462" width="65" height="292" frameX="-31" frameY="-68" frameWidth="130" frameHeight="400"/>
+    <SubTexture name="magic_potion_ray_0004" x="1973" y="298" width="72" height="253" frameX="-25" frameY="-120" frameWidth="130" frameHeight="400"/>
+    <SubTexture name="magic_potion_ray_0005" x="2" y="756" width="114" height="292" frameX="-8" frameY="-94" frameWidth="130" frameHeight="400"/>
+    <SubTexture name="magic_potion_ray_0006" x="36" y="1328" width="130" height="320" frameX="0" frameY="-74" frameWidth="130" frameHeight="400"/>
+    <SubTexture name="marcador" x="118" y="782" width="219" height="74"/>
+    <SubTexture name="marcador_bolas_restantes" x="36" y="1050" width="96" height="43"/>
+    <SubTexture name="more_games_button_off" x="118" y="959" width="164" height="50"/>
+    <SubTexture name="more_games_button_on" x="676" y="857" width="164" height="50"/>
+    <SubTexture name="music_off_button_off" x="1993" y="124" width="53" height="59" frameX="-2" frameY="-2" frameWidth="57" frameHeight="64"/>
+    <SubTexture name="music_off_button_on" x="1993" y="185" width="53" height="59" frameX="-2" frameY="-2" frameWidth="57" frameHeight="64"/>
+    <SubTexture name="music_on_button_off" x="589" y="926" width="57" height="64"/>
+    <SubTexture name="music_on_button_on" x="838" y="988" width="57" height="64"/>
+    <SubTexture name="options_button_off" x="586" y="1968" width="128" height="55"/>
+    <SubTexture name="options_button_on" x="876" y="1328" width="128" height="55"/>
+    <SubTexture name="play_button_off" x="484" y="1262" width="130" height="136" frameX="0" frameY="0" frameWidth="132" frameHeight="136"/>
+    <SubTexture name="play_button_on" x="362" y="1770" width="130" height="136" frameX="0" frameY="0" frameWidth="132" frameHeight="136"/>
+    <SubTexture name="play_level_off" x="1440" y="911" width="90" height="90"/>
+    <SubTexture name="play_level_on" x="1440" y="1003" width="90" height="90"/>
+    <SubTexture name="play_opened_level_off" x="301" y="921" width="59" height="60" frameX="0" frameY="0" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="play_opened_level_on" x="838" y="926" width="59" height="60" frameX="0" frameY="0" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="powerup_buy_button_off" x="1006" y="1328" width="128" height="55" frameX="0" frameY="-1" frameWidth="128" frameHeight="56"/>
+    <SubTexture name="powerup_buy_button_on" x="1136" y="1328" width="128" height="55" frameX="0" frameY="-1" frameWidth="128" frameHeight="56"/>
+    <SubTexture name="powerup_no_money" x="676" y="909" width="160" height="93"/>
+    <SubTexture name="powerup_ready" x="2" y="479" width="200" height="154" frameX="0" frameY="0" frameWidth="200" frameHeight="156"/>
+    <SubTexture name="powerup_use_button_off" x="1266" y="1328" width="128" height="55" frameX="0" frameY="-1" frameWidth="128" frameHeight="56"/>
+    <SubTexture name="powerup_use_button_on" x="1396" y="1328" width="128" height="55" frameX="0" frameY="-1" frameWidth="128" frameHeight="56"/>
+    <SubTexture name="red-basis" x="516" y="1160" width="134" height="100"/>
+    <SubTexture name="reporter_lose" x="362" y="399" width="302" height="265"/>
+    <SubTexture name="reporter_win" x="1205" y="635" width="265" height="244"/>
+    <SubTexture name="reset_button_off" x="1795" y="950" width="136" height="99" frameX="0" frameY="0" frameWidth="136" frameHeight="100"/>
+    <SubTexture name="reset_button_on" x="471" y="994" width="136" height="99" frameX="0" frameY="0" frameWidth="136" frameHeight="100"/>
+    <SubTexture name="resume_button_off" x="1305" y="1069" width="132" height="136"/>
+    <SubTexture name="resume_button_on" x="997" y="1106" width="132" height="136"/>
+    <SubTexture name="seleccion_0001" x="1935" y="1216" width="110" height="110"/>
+    <SubTexture name="seleccion_0002" x="140" y="1650" width="110" height="110"/>
+    <SubTexture name="seleccion_0003" x="36" y="1200" width="110" height="110"/>
+    <SubTexture name="seleccion_0004" x="148" y="1200" width="110" height="110"/>
+    <SubTexture name="seleccion_0006" x="260" y="1200" width="110" height="110"/>
+    <SubTexture name="seleccion_0007" x="168" y="1520" width="110" height="110"/>
+    <SubTexture name="seleccion_0008" x="280" y="1520" width="110" height="110"/>
+    <SubTexture name="seleccion_0009" x="372" y="1200" width="110" height="110"/>
+    <SubTexture name="seleccion_0010" x="1059" y="994" width="110" height="110"/>
+    <SubTexture name="seleccion_0011" x="386" y="1632" width="110" height="110"/>
+    <SubTexture name="seleccion_0012" x="392" y="1510" width="110" height="110"/>
+    <SubTexture name="seleccion_0013" x="362" y="1908" width="110" height="110"/>
+    <SubTexture name="seleccion_0014" x="474" y="1908" width="110" height="110"/>
+    <SubTexture name="seleccion_0016" x="494" y="1744" width="110" height="110"/>
+    <SubTexture name="seleccion_0018" x="498" y="1622" width="110" height="110"/>
+    <SubTexture name="seleccion_0019" x="504" y="1502" width="110" height="110"/>
+    <SubTexture name="seleccion_0020" x="586" y="1856" width="110" height="110"/>
+    <SubTexture name="seleccion_0021" x="606" y="1734" width="110" height="110"/>
+    <SubTexture name="seleccion_0022" x="610" y="1614" width="110" height="110"/>
+    <SubTexture name="seleccion_0023" x="616" y="1492" width="110" height="110"/>
+    <SubTexture name="seleccion_0024" x="698" y="1846" width="110" height="110"/>
+    <SubTexture name="seleccion_0025" x="718" y="1726" width="110" height="110"/>
+    <SubTexture name="seleccion_0028" x="810" y="1838" width="110" height="110"/>
+    <SubTexture name="seleccion_0029" x="722" y="1604" width="110" height="110"/>
+    <SubTexture name="seleccion_0031" x="830" y="1716" width="110" height="110"/>
+    <SubTexture name="seleccion_0032" x="922" y="1828" width="110" height="110"/>
+    <SubTexture name="seleccion_0033" x="728" y="1471" width="110" height="110"/>
+    <SubTexture name="seleccion_0035" x="834" y="1583" width="110" height="110"/>
+    <SubTexture name="seleccion_0036" x="840" y="1471" width="110" height="110"/>
+    <SubTexture name="seleccion_0037" x="942" y="1695" width="110" height="110"/>
+    <SubTexture name="seleccion_0038" x="946" y="1583" width="110" height="110"/>
+    <SubTexture name="seleccion_0040" x="952" y="1467" width="110" height="110"/>
+    <SubTexture name="seleccion_0041" x="1184" y="1207" width="110" height="110"/>
+    <SubTexture name="seleccion_0043" x="1034" y="1807" width="110" height="110"/>
+    <SubTexture name="seleccion_0044" x="1054" y="1695" width="110" height="110"/>
+    <SubTexture name="seleccion_0046" x="1058" y="1579" width="110" height="110"/>
+    <SubTexture name="seleccion_0048" x="1064" y="1467" width="110" height="110"/>
+    <SubTexture name="seleccion_0050" x="1049" y="1919" width="110" height="110"/>
+    <SubTexture name="seleccion_0051" x="1146" y="1807" width="110" height="110"/>
+    <SubTexture name="seleccion_0053" x="1166" y="1691" width="110" height="110"/>
+    <SubTexture name="seleccion_0054" x="1170" y="1579" width="110" height="110"/>
+    <SubTexture name="seleccion_0055" x="1176" y="1467" width="110" height="110"/>
+    <SubTexture name="seleccion_0056" x="1296" y="1207" width="110" height="110"/>
+    <SubTexture name="select_team_button_off" x="157" y="681" width="181" height="99" frameX="0" frameY="0" frameWidth="182" frameHeight="100"/>
+    <SubTexture name="select_team_button_on" x="118" y="858" width="181" height="99" frameX="0" frameY="0" frameWidth="182" frameHeight="100"/>
+    <SubTexture name="shop_ball_of_fire" x="673" y="1004" width="160" height="93"/>
+    <SubTexture name="shop_extra_balls" x="897" y="994" width="160" height="93"/>
+    <SubTexture name="shop_freeze-goalkeeper" x="835" y="1089" width="160" height="93"/>
+    <SubTexture name="shop_voodoo" x="668" y="1099" width="160" height="93"/>
+    <SubTexture name="speaker_celebration" x="2" y="1776" width="358" height="270"/>
+    <SubTexture name="stats_off" x="1630" y="1200" width="128" height="55" frameX="0" frameY="0" frameWidth="128" frameHeight="56"/>
+    <SubTexture name="stats_on" x="1630" y="1257" width="128" height="55" frameX="0" frameY="0" frameWidth="128" frameHeight="56"/>
+    <SubTexture name="up_button_off" x="1973" y="839" width="68" height="89" frameX="0" frameY="-1" frameWidth="68" frameHeight="90"/>
+    <SubTexture name="up_button_on" x="1973" y="930" width="68" height="89" frameX="0" frameY="-1" frameWidth="68" frameHeight="90"/>
+    <SubTexture name="use_powerup_3_balls_off" x="1472" y="635" width="63" height="67"/>
+    <SubTexture name="use_powerup_3_balls_on" x="1472" y="704" width="63" height="67"/>
+    <SubTexture name="use_powerup_ball_of_fire_off" x="1472" y="773" width="63" height="67"/>
+    <SubTexture name="use_powerup_ball_of_fire_on" x="1472" y="842" width="63" height="67"/>
+    <SubTexture name="use_powerup_freeze_goalkeeper_off" x="924" y="652" width="63" height="67"/>
+    <SubTexture name="use_powerup_freeze_goalkeeper_on" x="924" y="721" width="63" height="67"/>
+    <SubTexture name="use_powerup_voodoo_off" x="611" y="857" width="63" height="67"/>
+    <SubTexture name="use_powerup_voodoo_on" x="842" y="857" width="63" height="67"/>
+    <SubTexture name="victory-celebration" x="362" y="218" width="367" height="87" frameX="-4" frameY="-1" frameWidth="375" frameHeight="91"/>
+    <SubTexture name="victory" x="1008" y="429" width="205" height="183" frameX="0" frameY="0" frameWidth="206" frameHeight="183"/>
+    <SubTexture name="vitrina_abajo" x="2" y="2" width="768" height="214"/>
+    <SubTexture name="vitrina_arriba" x="772" y="2" width="768" height="109"/>
+    <SubTexture name="vitrina_derecha" x="1939" y="370" width="32" height="701"/>
+    <SubTexture name="vitrina_izquierda" x="2" y="1073" width="32" height="701"/>
+    <SubTexture name="vudu_mano" x="204" y="479" width="150" height="200"/>
+    <SubTexture name="vudu_muneco" x="362" y="666" width="247" height="258" frameX="0" frameY="-1" frameWidth="248" frameHeight="260"/>
+</TextureAtlas>

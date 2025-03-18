@@ -1,0 +1,13 @@
+{
+"companyName": "Cape Of Good Games",
+"productName": "BT Winter 2",
+"dataUrl": "BTWinter2.data.unityweb",
+"asmCodeUrl": "BTWinter2.asm.code.unityweb",
+"asmMemoryUrl": "BTWinter2.asm.memory.unityweb",
+"asmFrameworkUrl": "BTWinter2.asm.framework.unityweb",
+"TOTAL_MEMORY": 218103808,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000"
+}

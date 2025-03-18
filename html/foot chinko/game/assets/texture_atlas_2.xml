@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2d62e6576e2a49427d5016a3b64260cc:babc853d76af697130dacdb5428da669:ceac11bdc214ef982f455982f249b44b$ -->
+<TextureAtlas imagePath="texture_atlas_2.png" width="2048" height="2048">
+    <SubTexture name="balon_africa_cup" x="339" y="1414" width="68" height="68"/>
+    <SubTexture name="balon_america_cup" x="339" y="1484" width="68" height="68"/>
+    <SubTexture name="balon_asia_cup" x="409" y="1414" width="68" height="68"/>
+    <SubTexture name="balon_confederations" x="409" y="1484" width="68" height="68"/>
+    <SubTexture name="balon_electrocutado0001" x="2" y="1911" width="92" height="92"/>
+    <SubTexture name="balon_electrocutado0002" x="96" y="1911" width="92" height="92"/>
+    <SubTexture name="balon_electrocutado0003" x="190" y="1911" width="92" height="92"/>
+    <SubTexture name="balon_electrocutado0004" x="219" y="1784" width="92" height="92"/>
+    <SubTexture name="balon_eurocup" x="479" y="1414" width="68" height="68"/>
+    <SubTexture name="balon_extra" x="479" y="1484" width="68" height="68"/>
+    <SubTexture name="balon_fuego" x="549" y="1414" width="68" height="68"/>
+    <SubTexture name="balon_gold_cup" x="549" y="1484" width="68" height="68"/>
+    <SubTexture name="balon_oceania_cup" x="619" y="1376" width="68" height="68"/>
+    <SubTexture name="balon_olympics" x="619" y="1446" width="68" height="68"/>
+    <SubTexture name="balon_world_cup" x="689" y="1376" width="68" height="68"/>
+    <SubTexture name="chinko" x="772" y="255" width="459" height="139"/>
+    <SubTexture name="confetti_0001" x="1233" y="255" width="400" height="400"/>
+    <SubTexture name="confetti_0002" x="1635" y="255" width="400" height="400"/>
+    <SubTexture name="confetti_0003" x="772" y="396" width="400" height="400"/>
+    <SubTexture name="confetti_0004" x="2" y="445" width="400" height="400"/>
+    <SubTexture name="confetti_0005" x="1174" y="657" width="400" height="400"/>
+    <SubTexture name="confetti_0006" x="754" y="798" width="400" height="400"/>
+    <SubTexture name="foot" x="404" y="832" width="348" height="146"/>
+    <SubTexture name="gol_victoria_0001" x="358" y="980" width="215" height="215"/>
+    <SubTexture name="gol_victoria_0002" x="2" y="1043" width="215" height="215"/>
+    <SubTexture name="gol_victoria_0003" x="358" y="1197" width="215" height="215"/>
+    <SubTexture name="gol_victoria_0004" x="2" y="1260" width="215" height="215"/>
+    <SubTexture name="gol_victoria_0005" x="2" y="1477" width="215" height="215"/>
+    <SubTexture name="gol_victoria_0006" x="2" y="1694" width="215" height="215"/>
+    <SubTexture name="gol_victoria_0007" x="219" y="1567" width="215" height="215"/>
+    <SubTexture name="gol_victoria_0008" x="313" y="1784" width="215" height="215"/>
+    <SubTexture name="gol_victoria_0009" x="436" y="1554" width="215" height="215"/>
+    <SubTexture name="gol_victoria_0010" x="530" y="1771" width="215" height="215"/>
+    <SubTexture name="gol_victoria_0011" x="653" y="1516" width="215" height="215"/>
+    <SubTexture name="ravalmatic_logo_splash" x="575" y="980" width="166" height="34"/>
+    <SubTexture name="splash_glow" x="2" y="2" width="768" height="441"/>
+    <SubTexture name="splash_messi" x="404" y="445" width="348" height="385"/>
+    <SubTexture name="splash_pato" x="2" y="847" width="234" height="194"/>
+    <SubTexture name="title_trophies" x="772" y="2" width="612" height="251"/>
+    <SubTexture name="title_trophies_white" x="1386" y="2" width="612" height="251"/>
+    <SubTexture name="trofeo0000" x="238" y="847" width="118" height="178"/>
+    <SubTexture name="trofeo0001" x="238" y="1027" width="118" height="178"/>
+    <SubTexture name="trofeo0002" x="575" y="1016" width="118" height="178"/>
+    <SubTexture name="trofeo0003" x="575" y="1196" width="118" height="178"/>
+    <SubTexture name="trofeo0004" x="219" y="1207" width="118" height="178"/>
+    <SubTexture name="trofeo0005" x="219" y="1387" width="118" height="178"/>
+    <SubTexture name="trofeo0006" x="747" y="1733" width="118" height="178"/>
+    <SubTexture name="trofeo0007" x="867" y="1733" width="118" height="178"/>
+    <SubTexture name="trofeo0008" x="759" y="1200" width="118" height="178"/>
+    <SubTexture name="trofeo_off_0000" x="870" y="1380" width="118" height="178"/>
+    <SubTexture name="trofeo_off_0001" x="879" y="1200" width="118" height="178"/>
+    <SubTexture name="trofeo_off_0002" x="987" y="1560" width="118" height="178"/>
+    <SubTexture name="trofeo_off_0003" x="990" y="1380" width="118" height="178"/>
+    <SubTexture name="trofeo_off_0004" x="999" y="1200" width="118" height="178"/>
+    <SubTexture name="trofeo_off_0005" x="987" y="1740" width="118" height="178"/>
+    <SubTexture name="trofeo_off_0006" x="1107" y="1560" width="118" height="178"/>
+    <SubTexture name="trofeo_off_0007" x="1110" y="1380" width="118" height="178"/>
+    <SubTexture name="trofeo_off_0008" x="1119" y="1200" width="118" height="178"/>
+</TextureAtlas>

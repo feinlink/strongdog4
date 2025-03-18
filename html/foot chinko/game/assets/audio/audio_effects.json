@@ -1,0 +1,137 @@
+{
+  "resources": [
+    "audio_effects.mp3"
+  ],
+  "spritemap": {
+    "3_silvatos": {
+      "start": 0,
+      "end": 2.1681632653061222,
+      "loop": false
+    },
+    "atrapa_chutador": {
+      "start": 4,
+      "end": 4.7575510204081635,
+      "loop": false
+    },
+    "celebracion_victoria": {
+      "start": 6,
+      "end": 12.81795918367347,
+      "loop": false
+    },
+    "chuta_chutador": {
+      "start": 14,
+      "end": 14.182857142857143,
+      "loop": false
+    },
+    "electrocucion": {
+      "start": 16,
+      "end": 16.653061224489797,
+      "loop": false
+    },
+    "goal_1": {
+      "start": 18,
+      "end": 20.42938775510204,
+      "loop": false
+    },
+    "goal_2": {
+      "start": 22,
+      "end": 23.43673469387755,
+      "loop": false
+    },
+    "goal_3": {
+      "start": 25,
+      "end": 26.933061224489798,
+      "loop": false
+    },
+    "goal_4": {
+      "start": 28,
+      "end": 29.306122448979593,
+      "loop": false
+    },
+    "madera_rajada": {
+      "start": 31,
+      "end": 31.496326530612244,
+      "loop": false
+    },
+    "madera_solida_1": {
+      "start": 33,
+      "end": 33.496326530612244,
+      "loop": false
+    },
+    "moneda": {
+      "start": 35,
+      "end": 35.182857142857145,
+      "loop": false
+    },
+    "pick_coins": {
+      "start": 37,
+      "end": 38.22775510204082,
+      "loop": false
+    },
+    "play": {
+      "start": 40,
+      "end": 40.83591836734694,
+      "loop": false
+    },
+    "power_up": {
+      "start": 42,
+      "end": 44.76897959183673,
+      "loop": false
+    },
+    "quack": {
+      "start": 46,
+      "end": 46.80979591836735,
+      "loop": false
+    },
+    "quack_goal": {
+      "start": 48,
+      "end": 48.468004535147394,
+      "loop": false
+    },
+    "quack_risa": {
+      "start": 50,
+      "end": 50.41795918367347,
+      "loop": false
+    },
+    "quemar_rival": {
+      "start": 52,
+      "end": 54.037551020408166,
+      "loop": false
+    },
+    "rebote_bumper": {
+      "start": 56,
+      "end": 56.757551020408165,
+      "loop": false
+    },
+    "rebote_pin": {
+      "start": 58,
+      "end": 58.33959183673469,
+      "loop": false
+    },
+    "rebote_seta_1": {
+      "start": 60,
+      "end": 60.39600907029479,
+      "loop": false
+    },
+    "risa_portero_1": {
+      "start": 62,
+      "end": 62.6530612244898,
+      "loop": false
+    },
+    "risa_portero_2": {
+      "start": 64,
+      "end": 65.12326530612245,
+      "loop": false
+    },
+    "risa_portero_3": {
+      "start": 67,
+      "end": 67.75755102040816,
+      "loop": false
+    },
+    "super_goal": {
+      "start": 69,
+      "end": 71.95183673469387,
+      "loop": false
+    }
+  }
+}
