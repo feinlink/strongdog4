@@ -3,7 +3,7 @@ name: Upload Repository to strongdog4 Folder
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 jobs:

@@ -31,5 +31,5 @@ jobs:
       - name: Sync with upstream
         run: |
           git fetch upstream
-          git merge upstream/master master
-          git push origin master
+          git merge upstream/main main
+          git push origin main
