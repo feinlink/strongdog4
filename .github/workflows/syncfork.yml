@@ -25,7 +25,7 @@ jobs:
 
       # Step 3: Add upstream remote
       - name: Add upstream remote
-        run: git remote add upstream https://github.com/jman1593/strongdog3.git
+        run: git remote add upstream https://github.com/jman1593/strongdog4.git
 
       # Step 4: Fetch and sync with upstream
       - name: Sync with upstream
