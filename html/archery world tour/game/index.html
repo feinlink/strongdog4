@@ -2,58 +2,89 @@
 
 <html lang="en">
 <head>
-<title>Archery World Tour – Play it now at Coolmath-games.com Unblocked - ClassRoom6x</title>
+<base href="https://cdn.jsdelivr.net/gh/bubbls/youtube-playables@main/archery-world-tour/"/>
+<title>Archery World Tour</title>
 <meta charset="utf-8"/>
-<meta content="no" name="apple-mobile-web-app-capable">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="initial-scale=1.0,maximum-scale=1.01, minimal-ui" name="viewport"/>
 <style>
-		body {
-			margin: 0px;
-			padding: 0px;
-			width: 100%;
-			overflow:hidden
-		}
+      body {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow: hidden;
+        background-color: black;
+      }
 
-		canvas {
-			-ms-touch-action: none;
-			image-rendering: -o-crisp-edges;
-			image-rendering: optimize-contrast;
-			-ms-interpolation-mode: nearest-neighbor;
-			-webkit-tap-highlight-color: rgba(0,0,0,0);
-			-moz-tap-highlight-color: rgba(0,0,0,0);
-			tap-highlight-color: rgba(0,0,0,0);
-			user-select: none;
-			-webkit-touch-callout: none;
-			-webkit-user-select: none;
-			-moz-user-select: none;
-			-ms-user-select: none;
-		}
-	</style>
-<script src="/cloak.js" type="text/javascript"></script>
-<meta content="classroom6x.gitlab.io" name="website"/>
-<script>
-		true && (console = {
-		    log: function() {
-		        // do nothing
-		    },
-		    warn: function() {
-		        // do nothing
-		    },
-		    error: function() {
-		        // do nothing
-		    }
-		});
-	</script>
-<script src="coolmath-games.js"></script>
-</meta></head>
-<body style="overflow:hidden;">
-<div id="canvas-wrapper" style="overflow:hidden; width:100%; height:100%; margin:0; padding:0; position:absolute;">
+      canvas {
+        -ms-touch-action: none;
+        image-rendering: -o-crisp-edges;
+        image-rendering: optimize-contrast;
+        -ms-interpolation-mode: nearest-neighbor;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+        tap-highlight-color: rgba(0, 0, 0, 0);
+        user-select: none;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+      }
+    </style>
+<script nonce="XZH99PFHGq76b3KDl_GsLw" src="https://cdn.jsdelivr.net/gh/bubbls/youtube-playables@main/ytgame.js"></script>
+<script nonce="XZH99PFHGq76b3KDl_GsLw">
+      ytgame.game.firstFrameReady();
+    </script>
+<script nonce="XZH99PFHGq76b3KDl_GsLw">
+      window.famobi_gameID = "archery-world-tour";
+      window.famobi_gameJS = [
+        "TweenMax.min.js",
+        "Howler.min.js",
+        "VisibilityManager.js",
+        "app.js",
+        function () {
+          fenster.subscribeToOffsetUpdates(() => {
+            window.onresize();
+            // hier die resize Methode aufrufen
+          });
+
+          if (!window.famobi.hasFeature("leaderboard")) {
+            extGameLoad();
+            return;
+          }
+
+          var apiURL = "//tools.famobi.com/api/simple-highscore/api.js";
+          if (document.location.href.indexOf("file:") !== -1)
+            apiURL = "http:" + apiURL;
+
+          faZepto.getScript(apiURL, extGameLoad, function () {
+            window.famobi.config.features.leaderboard = 0;
+            extGameLoad();
+          });
+        },
+      ];
+      (function (document, url, fgJS, firstJS) {
+        fgJS = document.createElement("script");
+        firstJS = document.getElementsByTagName("script")[0];
+        fgJS.src = url + "";
+        firstJS.parentNode.insertBefore(fgJS, firstJS);
+      })(document, "html5games/gameapi/v1.js");
+    </script>
+</head>
+<body>
+<div id="canvas-wrapper" style="
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+      ">
 <canvas id="canvas" moz-opaque=""></canvas>
 </div>
 <script>
     if (window.top === window.self) {
     window.location.href = '../../../';
 }
-
 </script></body>
 </html>

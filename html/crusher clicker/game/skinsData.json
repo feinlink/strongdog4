@@ -1,0 +1,98 @@
+{
+	"Skin0" : {
+		"current" : 0,
+		"need" : 0,
+		"open" : 0,
+		"name" : ""
+	},
+	"Skin1" : {
+		"current" : 0,
+		"need" : 0,
+		"open" : 0,
+		"name" : ""
+	},
+	"Skin2" : {
+		"current" : 0,
+		"need" : 200,
+		"open" : 0,
+		"name" : "Destroy objects"
+	},
+	"Skin3" : {
+		"current" : 0,
+		"need" : 500,
+		"open" : 0,
+		"name" : "Clicks on objects"
+	},
+	"Skin4" : {
+		"current" : 0,
+		"need" : 30000,
+		"open" : 0,
+		"name" : "Destroy objects"
+	},
+	"Skin5" : {
+		"current" : 0,
+		"need" : 5,
+		"open" : 0,
+		"name" : "Use bonuses"
+	},
+	"Skin6" : {
+		"current" : 0,
+		"need" : 400,
+		"open" : 0,
+		"name" : "Upgrades"
+	},
+	"Skin7" : {
+		"current" : 0,
+		"need" : 30,
+		"open" : 0,
+		"name" : "Reach the level"
+	},
+	"Skin8" : {
+		"current" : 0,
+		"need" : 40,
+		"open" : 0,
+		"name" : "Click on the bomb"
+	},
+	"Skin9" : {
+		"current" : 0,
+		"need" : 250,
+		"open" : 0,
+		"name" : "Crystals destroyed"
+	},
+	"Skin10" : {
+		"current" : 0,
+		"need" : 1000,
+		"open" : 0,
+		"name" : "Clicks on objects"
+	},
+	"Skin11" : {
+		"current" : 0,
+		"need" : 20,
+		"open" : 0,
+		"name" : "Increase gravity"
+	},
+	"Skin12" : {
+		"current" : 0,
+		"need" : 300,
+		"open" : 0,
+		"name" : "Clicks on crystals"
+	},
+	"Skin13" : {
+		"current" : 0,
+		"need" : 50,
+		"open" : 0,
+		"name" : "Reach the level"
+	},
+	"Skin14" : {
+		"current" : 0,
+		"need" : 700,
+		"open" : 0,
+		"name" : "Upgrades"
+	},
+	"Skin15" : {
+		"current" : 0,
+		"need" : 7,
+		"open" : 0,
+		"name" : "Use bonuses"
+	}
+}

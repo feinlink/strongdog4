@@ -1,0 +1,1 @@
+{"importBase":"import","nativeBase":"native","name":"wasm_bin","deps":[],"uuids":["ef7H8WUs5I7phBrTv3niGt"],"paths":{"0":["ammo.wasm",0]},"scenes":{},"packs":{},"versions":{"import":[0,"76381"],"native":[0,"38175"]},"redirect":[],"debug":false,"extensionMap":{},"hasPreloadScript":true,"dependencyRelationships":{},"types":["cc.BufferAsset"]}

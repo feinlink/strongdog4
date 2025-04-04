@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+<!-- Page configuration. -->
+<meta charset="utf-8"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=yes" name="viewport"/>
+<title></title>
+<link href="img/favicon.ico" rel="shortcut icon"/>
+<link href="css/main.css" rel="stylesheet"/>
+<link href="json/manifest.webmanifest" rel="manifest"/>
+<!-- Application base modules. -->
+<script src="lib/runtimeData.js" type="text/javascript"></script>
+<script type="text/javascript">
+        window.onload = () => {
+            document.title = runtimeData.productName;
+            if (runtimeData.debugMode == true) {
+                let erudaScript = document.createElement("script");
+                erudaScript.src = "lib/eruda.js";
+                erudaScript.onload = () => {
+                    eruda.init();
+                };
+                document.body.appendChild(erudaScript);
+            }
+        }
+    </script>
+<link href="https://www.crazygames.com/game/solar-smash" rel="canonical"/></head>
+<body>
+<!-- Game canvas. -->
+<div id="unity-container">
+<canvas id="unity-canvas" tabindex="-1"></canvas>
+<div id="unity-loading-bar">
+<div id="version-container">
+<img src="img/version_product_32.png"/>
+<div id="version-product">1.0.0</div>
+<div id="version-separator"></div>
+<img src="img/version_sdk_32.png"/>
+<div id="version-sdk">1.0.0</div>
+</div>
+<div id="unity-logo"></div>
+<div id="unity-progress-bar-empty">
+<div id="unity-progress-bar-full"></div>
+</div>
+<div id="three-canvas"></div>
+</div>
+</div>
+<!-- Banner advertisement. -->
+<div id="banner-container"></div>
+<!-- Version labels. -->
+<script type="text/javascript">
+        document.body.style.backgroundImage = "url('img/" + runtimeData.backgroundTextureName + "')";
+        document.getElementById("unity-logo").style.backgroundImage = "url('img/" + runtimeData.iconTextureName + "')";
+        document.getElementById("version-product").innerHTML = runtimeData.productVersion;
+        document.getElementById("version-sdk").innerHTML = runtimeData.sdkVersion;
+    </script>
+<!-- Company logo. -->
+<script src="lib/threeImport.js" type="text/javascript"></script>
+<!-- Service worker. -->
+<script type="text/javascript">
+        window.addEventListener("load", function () {
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker.register("lib/serviceWorker.js");
+            }
+        });
+    </script>
+<!-- Memory diagnostics. -->
+<link href="css/diagnostics.css" rel="stylesheet"/>
+<script src="lib/diagnostics.js"></script>
+<script type="text/javascript">
+        let diagnosticsIcon = document.createElement('img');
+        diagnosticsIcon.id = 'diagnostics-icon';
+        diagnosticsIcon.src = 'img/diagnostics_128x128.png';
+        diagnosticsIcon.style.display = "none";
+        document.body.appendChild(diagnosticsIcon);
+    </script>
+<!-- Application interface. -->
+<script src="lib/application.js" type="text/javascript"></script>
+<script src="lib/aspectRatio.js" type="text/javascript"></script>
+<script src="lib/commonFixes.js" type="text/javascript"></script>
+<script type="text/javascript">
+        async function initializeWrapper() {
+            if (runtimeData.wrapperScript == "") {
+                console.error("Wrapper script is not valid.");
+                application.initialize();
+                return;
+            }
+            const wrapper = await import("./lib/" + runtimeData.wrapperScript);
+            if (typeof wrapper.initialize === 'function') {
+                // Wrapper initialization.
+                wrapper.initialize(() => {
+                    // Application initialization
+                    // on wrapper ready callback.
+                    application.initialize();
+                });
+            } else {
+                console.error("Initialize method not found in the module.");
+                application.initialize();
+            }
+        }
+        initializeWrapper();
+    </script>
+<script>
+    if (window.top === window.self) {
+    window.location.href = '../../../';
+}
+</script></body></html>

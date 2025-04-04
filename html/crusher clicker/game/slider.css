@@ -1,0 +1,107 @@
+/* Стили для ползунка */
+.slider {
+  -webkit-appearance: none; /* Убирает стандартный стиль ползунка в браузерах на основе WebKit */
+  width: 100%; /* Задает ширину ползунка */
+  margin: 10px 0; /* Задает отступы сверху и снизу в 10px */
+  background: #0000; /* Цвет трека */
+  opacity: 0.7;
+}
+
+.slider:focus {
+  outline: none; /* Убирает стандартную обводку при фокусе */
+}
+
+.slider::-webkit-slider-runnable-track {
+  width: 100%; /* Ширина трека ползунка */
+  height: 8px; /* Высота трека ползунка */
+  cursor: pointer; /* Курсор при наведении мыши */
+  box-shadow: 1px 1px 1px #000, 0px 0px 1px #0d0d0d; /* Тень трека */
+  background: #a5a5a5; /* Цвет трека */
+  border-radius: 10px; /* Радиус закругления углов трека */
+  border: 0.2px solid #010101; /* Граница трека */
+}
+
+.slider::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000, 0px 0px 1px #0d0d0d; /* Тень бегунка */
+  border: 1px solid #000000; /* Граница бегунка */
+  width: var(--thumb-width, 30px);   /* Высота бегунка */
+  height: var(--thumb-height, 30px); /* Ширина бегунка */
+  border-radius: 30px; /* Радиус закругления углов бегунка */
+  background: #f4c57a; /* Цвет бегунка */
+  cursor: pointer; /* Курсор при наведении мыши */
+  -webkit-appearance: none; /* Убирает стандартный стиль бегунка в браузерах на основе WebKit */
+  margin-top: var(--top, -14px); /* Сдвиг бегунка вверх */
+}
+
+
+
+.slider::-moz-range-track {
+  width: 100%; /* Ширина трека ползунка */
+  height: 8.4px; /* Высота трека ползунка */
+  cursor: pointer; /* Курсор при наведении мыши */
+  box-shadow: 1px 1px 1px #000, 0px 0px 1px #0d0d0d; /* Тень трека */
+  background: #a5a5a5; /* Цвет трека */
+  border-radius: 1.3px; /* Радиус закругления углов трека */
+  border: 0.2px solid #010101; /* Граница трека */
+}
+
+.slider::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000, 0px 0px 1px #0d0d0d; /* Тень бегунка */
+  border: 1px solid #000000; /* Граница бегунка */
+  width: var(--thumb-width, 30px);   /* Высота бегунка */
+  height: var(--thumb-height, 30px); /* Ширина бегунка */
+  border-radius: 30px; /* Радиус закругления углов бегунка */
+  background: #f4c57a; /* Цвет бегунка */
+  cursor: pointer; /* Курсор при наведении мыши */
+}
+
+.slider::-ms-track {
+  width: 100%; /* Ширина трека ползунка */
+  height: 8.4px; /* Высота трека ползунка */
+  cursor: pointer; /* Курсор при наведении мыши */
+  background: transparent; /* Прозрачный фон для трека */
+  border-color: transparent; /* Прозрачная граница трека */
+  color: transparent; /* Прозрачный цвет трека */
+}
+
+.slider::-ms-fill-lower {
+  background: #2a6495; /* Цвет нижней заполненной части трека */
+  border: 0.2px solid #010101; /* Граница нижней заполненной части трека */
+  border-radius: 2.6px; /* Радиус закругления углов нижней заполненной части трека */
+  box-shadow: 1px 1px 1px #000, 0px 0px 1px #0d0d0d; /* Тень нижней заполненной части трека */
+}
+
+.slider::-ms-fill-upper {
+  background: #3071a9; /* Цвет верхней заполненной части трека */
+  border: 0.2px solid #010101; /* Граница верхней заполненной части трека */
+  border-radius: 2.6px; /* Радиус закругления углов верхней заполненной части трека */
+  box-shadow: 1px 1px 1px #000, 0px 0px 1px #0d0d0d; /* Тень верхней заполненной части трека */
+}
+
+.slider::-ms-thumb {
+  box-shadow: 1px 1px 1px #000, 0px 0px 1px #0d0d0d; /* Тень бегунка */
+  border: 1px solid #000000; /* Граница бегунка */
+  width: var(--thumb-width, 30px);   /* Высота бегунка */
+  height: var(--thumb-height, 30px); /* Ширина бегунка */
+  border-radius: 3px; /* Радиус закругления углов бегунка */
+  background: #ffffff; /* Цвет бегунка */
+  cursor: pointer; /* Курсор при наведении мыши */
+}
+
+.slider:focus::-ms-fill-lower {
+  background: #3071a9; /* Цвет нижней заполненной части трека при фокусе */
+}
+
+.slider:focus::-ms-fill-upper {
+  background: #367ebd; /* Цвет верхней заполненной части трека при фокусе */
+}
+
+.slider:hover::-webkit-slider-thumb {
+  background: #ffffff;
+}
+.slider:hover {
+  opacity: 1;
+}
+
+
+
