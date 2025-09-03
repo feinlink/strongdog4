@@ -1,3 +1,5 @@
+if you're reading this, congratulations. github is THE WORST platform to host whatever the heck this is.
+
 # Strongdog
 #### The official repo for strongdog, the best game site ever!
 ----
